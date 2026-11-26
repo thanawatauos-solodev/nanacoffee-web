@@ -20,7 +20,7 @@
       },
       "price": {
         "discriminant": "single",
-        "value": 150
+        "value": 149
       },
       "tags": [
         "signature"
