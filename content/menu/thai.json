@@ -20,13 +20,13 @@
       },
       "price": {
         "discriminant": "single",
-        "value": 100
+        "value": 150
       },
       "tags": [
         "signature"
       ],
       "spicy": "2",
-      "image": "/menu/thai/items/yum-pla-duk-fu/image.jpeg"
+      "image": "/menu/thai/items/yum-pla-duk-fu/image.jpg"
     },
     {
       "nameTh": {
@@ -40,7 +40,7 @@
       },
       "price": {
         "discriminant": "single",
-        "value": 140
+        "value": 150
       },
       "tags": [
         "signature"
