@@ -14,7 +14,9 @@ import { MenuItemCard } from "./menu-item-card";
 // Search both languages, so "latte" and "ลาเต้" find the same drink on either page.
 function matches(item: MenuItem, query: string): boolean {
   if (!query) return true;
-  const haystack = `${item.name.th} ${item.name.en} ${item.description.th} ${item.description.en}`.toLowerCase();
+  const haystack = [item.name.th, item.name.en, item.description.th, item.description.en, ...(item.aliases ?? [])]
+    .join(" ")
+    .toLowerCase();
   return haystack.includes(query);
 }
 

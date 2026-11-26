@@ -1,0 +1,124 @@
+{
+  "name": {
+    "th": "อาหารเวียดนาม",
+    "en": "Vietnamese"
+  },
+  "blurb": {
+    "th": "ของดีสกลนคร สดชื่น เบา สบายท้อง",
+    "en": "A Sakon Nakhon favourite: fresh, light and easy on the stomach"
+  },
+  "items": [
+    {
+      "nameTh": "แหนมเนือง",
+      "nameEn": {
+        "name": "Nem Nuong Platter",
+        "slug": "naem-nueang"
+      },
+      "description": {
+        "th": "แหนมย่างหอมกรุ่น แผ่นแป้งเวียดนาม ผักสดและน้ำจิ้มสูตรเฉพาะร้าน",
+        "en": "Grilled Vietnamese pork sausage with rice paper, fresh herbs and our signature dipping sauce"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 159
+      },
+      "tags": [
+        "signature"
+      ],
+      "spicy": "0",
+      "emoji": "🌯"
+    },
+    {
+      "nameTh": "ข้าวเปียกเส้นหมู",
+      "nameEn": {
+        "name": "Khao Piak Sen",
+        "slug": "khao-piak-sen"
+      },
+      "description": {
+        "th": "เส้นเหนียวนุ่ม น้ำซุปกระดูกหมูเคี่ยวนาน ใส่หมูยอ โรยกระเทียมเจียว",
+        "en": "Soft, chewy noodles in a slow-simmered pork bone broth with Vietnamese pork roll and fried garlic"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 60
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🍜"
+    },
+    {
+      "nameTh": "ไข่กระทะ",
+      "nameEn": {
+        "name": "Vietnamese Pan Eggs",
+        "slug": "kai-kratha"
+      },
+      "description": {
+        "th": "ไข่ดาวในกระทะร้อน หมูยอ กุนเชียง หมูสับ เสิร์ฟพร้อมขนมปังอุ่นๆ",
+        "en": "Eggs sizzled in a hot pan with pork roll, Chinese sausage and minced pork, served with warm bread"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 69
+      },
+      "tags": [
+        "bestseller"
+      ],
+      "spicy": "0",
+      "emoji": "🥘"
+    },
+    {
+      "nameTh": "เฝอเนื้อ",
+      "nameEn": {
+        "name": "Beef Pho",
+        "slug": "pho-nuea"
+      },
+      "description": {
+        "th": "น้ำซุปเนื้อใส หอมเครื่องเทศ เส้นเฝอนุ่ม เนื้อสไลซ์ ใบโหระพา",
+        "en": "Clear, aromatic beef broth with soft pho noodles, sliced beef and Thai basil"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 89
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🥣"
+    },
+    {
+      "nameTh": "บั๋นหมี่",
+      "nameEn": {
+        "name": "Banh Mi",
+        "slug": "banh-mi"
+      },
+      "description": {
+        "th": "ขนมปังเวียดนามกรอบนอกนุ่มใน ไส้หมูยอ หมูหยอง ผักดอง ผักชี",
+        "en": "Crusty Vietnamese baguette with pork roll, pork floss, pickles and coriander"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 55
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🥖"
+    },
+    {
+      "nameTh": "ปอเปี๊ยะทอดเวียดนาม",
+      "nameEn": {
+        "name": "Fried Spring Rolls",
+        "slug": "popia-tod"
+      },
+      "description": {
+        "th": "แป้งข้าวทอดกรอบ ไส้หมูวุ้นเส้นเห็ดหูหนู จิ้มน้ำจิ้มเปรี้ยวหวาน",
+        "en": "Crispy rice-paper rolls filled with pork, glass noodles and wood-ear mushroom, with sweet chilli dip"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 79
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🥟"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { ReviewsSection } from "@/features/reviews/components/reviews-section";
 import { Amenities } from "@/features/shop/components/amenities";
 import { Hero } from "@/features/shop/components/hero";
 import { PromoCarousel } from "@/features/shop/components/promo-carousel";
+import { promotions } from "@/features/shop/data/promotions";
 import { Story } from "@/features/shop/components/story";
 import { TasteRibbon } from "@/features/shop/components/taste-ribbon";
 import { VisitInfo } from "@/features/shop/components/visit-info";
@@ -28,12 +29,14 @@ export default async function HomePage() {
       <div className="space-y-24 pt-16 sm:space-y-32 sm:pt-20">
         <Story />
         <SignatureMenu />
-        <section aria-labelledby="promo-title" className="mx-auto max-w-6xl px-4 sm:px-6">
-          <SectionHeading id="promo-title" eyebrow={t.promotions.eyebrow} title={t.promotions.title} />
-          <div className="mt-6">
-            <PromoCarousel />
-          </div>
-        </section>
+        {promotions.length > 0 ? (
+          <section aria-labelledby="promo-title" className="mx-auto max-w-6xl px-4 sm:px-6">
+            <SectionHeading id="promo-title" eyebrow={t.promotions.eyebrow} title={t.promotions.title} />
+            <div className="mt-6">
+              <PromoCarousel />
+            </div>
+          </section>
+        ) : null}
         <Amenities />
         <ReviewsSection />
         <VisitInfo />

@@ -1,13 +1,16 @@
+import { siteText } from "../site-text";
 import type { Dictionary } from "./th";
+
+/** English UI copy. Page copy the shop can edit (text.*) comes from the admin, see src/i18n/site-text.ts. */
+const text = siteText("en");
 
 const en: Dictionary = {
   site: {
     branch: "Sawang Daen Din",
     branchShort: "Sawang Daen Din",
-    tagline: "A relaxed café & restaurant",
-    title: "NaNa Coffee (นานาคอฟฟี่) Sawang Daen Din | Café & Restaurant in Sakon Nakhon",
-    description:
-      "NaNa Coffee (นานาคอฟฟี่) in Sawang Daen Din, Sakon Nakhon: a relaxed café and restaurant serving fresh coffee, Thai, Vietnamese and Western food, with an air-conditioned room and parking. Open daily 10:00–21:00.",
+    tagline: text.site.tagline,
+    title: text.site.title,
+    description: text.site.description,
     keywords: [
       "NaNa Coffee",
       "นานาคอฟฟี่",
@@ -34,7 +37,7 @@ const en: Dictionary = {
     language: "Change language",
   },
   footer: {
-    blurb: "Air-conditioned seating and parking. Drop by for coffee and a good meal any day of the week.",
+    blurb: text.footer.blurb,
     hours: "Opening hours",
     contact: "Contact",
     directions: "Directions on Google Maps",
@@ -54,24 +57,20 @@ const en: Dictionary = {
   },
   hero: {
     welcome: "Welcome to",
-    intro:
-      "A café and restaurant in Sawang Daen Din: fragrant coffee and Thai, Vietnamese and Western dishes in a relaxed setting, with a cool air-conditioned room and parking.",
+    intro: text.hero.intro,
     seeMenu: "See the menu",
     call: "Call us",
     directions: "Get directions",
     line: "Chat on LINE",
     reviews: "Guest reviews",
   },
-  ribbon: ["Fresh coffee", "Thai food", "Vietnamese", "Steaks", "Ice cream cake", "Air-con room", "Parking", "Open daily"],
+  ribbon: text.ribbon,
   story: {
     eyebrow: "Our Story",
-    titleStart: "Good coffee, great food",
-    titleAccent: "and good times",
-    titleEnd: "in [[Sawang Daen Din]]",
-    body: [
-      "NaNa Coffee (นานาคอฟฟี่) Sawang Daen Din is a café and restaurant on [[Nittayo Road]] that brings fragrant coffee together with Thai, Vietnamese and Western food under one roof. Come for a quiet coffee, meet friends, or celebrate with the whole family.",
-      "We want the shop to feel like a second home in Sakon Nakhon: a cool air-conditioned room for working, a relaxed open area for friends and family, and parking for an easy stop.",
-    ],
+    titleStart: text.story.titleStart,
+    titleAccent: text.story.titleAccent,
+    titleEnd: text.story.titleEnd,
+    body: text.story.body,
     facts: {
       days: { unit: "days", label: "Monday to Sunday" },
       hours: { unit: "hrs", label: "{open} – {close}" },
@@ -81,8 +80,8 @@ const en: Dictionary = {
   },
   signature: {
     eyebrow: "Signature",
-    title: "House favourites",
-    description: "The dishes our regulars order again and again, from crispy catfish salad to ice cream cake.",
+    title: text.signature.title,
+    description: text.signature.description,
     seeAll: "See the full menu",
   },
   promotions: {
@@ -96,15 +95,9 @@ const en: Dictionary = {
   },
   amenities: {
     eyebrow: "Our Place",
-    title: "A cosy corner on [[Nittayo Road]]",
-    description:
-      "A café and restaurant that feels like dropping by a friend's place: good coffee, tasty food and comfy seats you can stay in as long as you like.",
-    items: {
-      airConditioned: { title: "Cool air-con room", body: "Work, read or catch up with friends for as long as you like" },
-      parking: { title: "Parking", body: "Easy to stop by, no circling for a space" },
-      atmosphere: { title: "Relaxed atmosphere", body: "Laid-back, friendly corners for families and friends" },
-      takeaway: { title: "Takeaway", body: "Call ahead and pick it up at the shop, no waiting" },
-    },
+    title: text.amenities.title,
+    description: text.amenities.description,
+    items: text.amenities.items,
   },
   visit: {
     eyebrow: "Visit Us",
@@ -130,7 +123,7 @@ const en: Dictionary = {
   menu: {
     eyebrow: "Our Menu",
     title: "Food & Drinks",
-    intro: "Thai, Vietnamese and Western food, coffee, tea and desserts. Eat in, or call ahead to take away.",
+    intro: text.menu.intro,
     metaTitle: "Menu",
     metaDescription:
       "The NaNa Coffee Sawang Daen Din menu with prices: Thai dishes such as crispy catfish salad and spicy vegetable soup with shrimp, Vietnamese nem nuong, steaks, American fried rice, coffee, tea and ice cream cake.",
@@ -147,17 +140,17 @@ const en: Dictionary = {
     spicy: "Spice level {level} of 3",
     takeaway: {
       eyebrow: "Take away",
-      title: "Ordering to take away?",
-      body: "Call ahead and pick up your order at the shop, no waiting.",
+      title: text.menu.takeaway.title,
+      body: text.menu.takeaway.body,
       cta: "Call to order",
     },
   },
   reviews: {
     eyebrow: "Reviews",
-    sectionTitle: "What our guests say",
-    sectionDescription: "Thank you for every kind word and suggestion. We read every review and keep making the shop better.",
+    sectionTitle: text.reviews.sectionTitle,
+    sectionDescription: text.reviews.sectionDescription,
     pageTitle: "Guest reviews",
-    pageIntro: "Every compliment and suggestion matters to us. Thank you for visiting and sharing your experience.",
+    pageIntro: text.reviews.pageIntro,
     metaDescription:
       "Reviews of NaNa Coffee (นานาคอฟฟี่) Sawang Daen Din, Sakon Nakhon: coffee, food, desserts, the air-conditioned room and service.",
     outOf: "from {count} reviews",
@@ -179,8 +172,8 @@ const en: Dictionary = {
     showing: "Showing {count} reviews",
     thanks: {
       eyebrow: "Thank you!",
-      title: "Enjoyed your visit?",
-      body: "A short Google review helps locals and travellers find us. We're grateful for every one.",
+      title: text.reviews.thanks.title,
+      body: text.reviews.thanks.body,
     },
   },
   contactPage: {

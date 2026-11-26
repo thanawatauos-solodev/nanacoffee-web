@@ -1,0 +1,162 @@
+{
+  "name": {
+    "th": "อาหารไทย",
+    "en": "Thai"
+  },
+  "blurb": {
+    "th": "รสจัดจ้าน สูตรบ้านๆ ทำสดทุกจาน",
+    "en": "Bold and fiery home-style recipes, cooked fresh to order"
+  },
+  "items": [
+    {
+      "nameTh": "ยำปลาดุกฟู",
+      "nameEn": {
+        "name": "Crispy Catfish Salad",
+        "slug": "yum-pla-duk-fu"
+      },
+      "description": {
+        "th": "ปลาดุกฟูกรอบเบา ราดยำมะม่วงเปรี้ยวหวาน โรยถั่วลิสงคั่ว",
+        "en": "Fluffy crispy catfish topped with a sweet-sour green mango salad and roasted peanuts"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 120
+      },
+      "tags": [
+        "signature"
+      ],
+      "spicy": "2",
+      "emoji": "🐟"
+    },
+    {
+      "nameTh": "แกงเลียงกุ้งสด",
+      "nameEn": {
+        "name": "Spicy Vegetable Soup with Shrimp",
+        "slug": "kaeng-liang-kung"
+      },
+      "description": {
+        "th": "ผักพื้นบ้านหลากชนิด กุ้งสดตัวโต น้ำแกงหอมพริกไทยและหอมแดง",
+        "en": "Local vegetables and plump fresh shrimp in a peppery broth scented with shallots"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 140
+      },
+      "tags": [
+        "signature"
+      ],
+      "spicy": "1",
+      "emoji": "🍲"
+    },
+    {
+      "nameTh": "ต้มยำกุ้งน้ำข้น",
+      "nameEn": {
+        "name": "Creamy Tom Yum Kung",
+        "slug": "tom-yum-kung"
+      },
+      "description": {
+        "th": "น้ำซุปเข้มข้น เปรี้ยวเผ็ดกลมกล่อม หอมตะไคร้ใบมะกรูด",
+        "en": "Rich, creamy hot-and-sour soup fragrant with lemongrass and kaffir lime leaves"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 160
+      },
+      "tags": [],
+      "spicy": "2",
+      "emoji": "🍤"
+    },
+    {
+      "nameTh": "ผัดกะเพราหมูกรอบ + ไข่ดาว",
+      "nameEn": {
+        "name": "Holy Basil Crispy Pork",
+        "slug": "kaprao-moo-krob"
+      },
+      "description": {
+        "th": "หมูกรอบผัดใบกะเพราไฟแรง เสิร์ฟพร้อมข้าวสวยและไข่ดาวกรอบ",
+        "en": "Crispy pork wok-fried with holy basil, served with jasmine rice and a crispy fried egg"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 75
+      },
+      "tags": [
+        "bestseller"
+      ],
+      "spicy": "2",
+      "emoji": "🍳"
+    },
+    {
+      "nameTh": "ข้าวผัดปู",
+      "nameEn": {
+        "name": "Crab Fried Rice",
+        "slug": "khao-pad-poo"
+      },
+      "description": {
+        "th": "ข้าวผัดไฟแรง เนื้อปูแน่นๆ ไข่หอม เสิร์ฟพร้อมมะนาวและแตงกวา",
+        "en": "Wok-fried rice with generous crab meat and egg, served with lime and cucumber"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 90
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🦀"
+    },
+    {
+      "nameTh": "ส้มตำไทย",
+      "nameEn": {
+        "name": "Green Papaya Salad",
+        "slug": "som-tam-thai"
+      },
+      "description": {
+        "th": "มะละกอกรอบ ถั่วฝักยาว มะเขือเทศ กุ้งแห้ง รสเปรี้ยวหวานลงตัว",
+        "en": "Crunchy green papaya, long beans, tomato and dried shrimp, perfectly sweet and sour"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 60
+      },
+      "tags": [],
+      "spicy": "2",
+      "emoji": "🥗"
+    },
+    {
+      "nameTh": "หมูทอดกระเทียม",
+      "nameEn": {
+        "name": "Garlic Fried Pork",
+        "slug": "moo-tod-kratiam"
+      },
+      "description": {
+        "th": "หมูหมักนุ่ม ทอดกรอบโรยกระเทียมเจียวหอมๆ เสิร์ฟพร้อมข้าวสวย",
+        "en": "Tender marinated pork fried crisp and topped with golden garlic, served with rice"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 75
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🧄"
+    },
+    {
+      "nameTh": "ผัดไทยกุ้งสด",
+      "nameEn": {
+        "name": "Pad Thai with Shrimp",
+        "slug": "pad-thai-kung"
+      },
+      "description": {
+        "th": "เส้นจันท์เหนียวนุ่ม ซอสมะขามเคี่ยวเอง กุ้งสด ถั่วงอก กุยช่าย",
+        "en": "Chewy rice noodles in house-made tamarind sauce with fresh shrimp, bean sprouts and chives"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 89
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🥢"
+    }
+  ]
+}

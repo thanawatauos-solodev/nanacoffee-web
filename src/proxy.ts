@@ -29,7 +29,7 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  // Skip Next internals, files with an extension (sitemap.xml, robots.txt, icon.svg, images…)
-  // and the root-level apple-icon route.
-  matcher: ["/((?!_next/|api/|apple-icon|.*\\..*).*)"],
+  // Skip Next internals, files with an extension (sitemap.xml, robots.txt, icon.svg, images…),
+  // the root-level apple-icon route and the admin (/keystatic), which isn't localized.
+  matcher: ["/((?!_next/|api/|keystatic|apple-icon|.*\\..*).*)"],
 };

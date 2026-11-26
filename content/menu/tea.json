@@ -1,0 +1,139 @@
+{
+  "name": {
+    "th": "ชา & เครื่องดื่ม",
+    "en": "Tea & More"
+  },
+  "blurb": {
+    "th": "ชาไทย มัทฉะ และเมนูไม่มีกาแฟ",
+    "en": "Thai tea, matcha and coffee-free drinks"
+  },
+  "items": [
+    {
+      "nameTh": "ชาไทย",
+      "nameEn": {
+        "name": "Thai Milk Tea",
+        "slug": "thai-tea"
+      },
+      "description": {
+        "th": "ชาไทยชงเข้ม หอมมัน นมสดและนมข้น",
+        "en": "Strong-brewed Thai tea, creamy with fresh and condensed milk"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "iced": 50,
+          "frappe": 60
+        }
+      },
+      "tags": [
+        "bestseller"
+      ],
+      "spicy": "0",
+      "emoji": "🧋"
+    },
+    {
+      "nameTh": "มัทฉะลาเต้",
+      "nameEn": {
+        "name": "Matcha Latte",
+        "slug": "matcha-latte"
+      },
+      "description": {
+        "th": "มัทฉะเกรดพรีเมียม นมสดนุ่ม หอมชาเขียวแท้",
+        "en": "Premium matcha with smooth fresh milk"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "hot": 60,
+          "iced": 65,
+          "frappe": 75
+        }
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🍵"
+    },
+    {
+      "nameTh": "ชามะนาว",
+      "nameEn": {
+        "name": "Iced Lemon Tea",
+        "slug": "lemon-tea"
+      },
+      "description": {
+        "th": "ชาไทยเปรี้ยวหวาน มะนาวสดคั้นใหม่",
+        "en": "Sweet-and-sour Thai tea with freshly squeezed lime"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "iced": 45,
+          "frappe": 55
+        }
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🍋"
+    },
+    {
+      "nameTh": "โกโก้เข้มข้น",
+      "nameEn": {
+        "name": "Rich Cocoa",
+        "slug": "cocoa"
+      },
+      "description": {
+        "th": "โกโก้แท้เข้มข้น นมสด หวานมันกำลังดี",
+        "en": "Rich real cocoa with fresh milk, perfectly balanced"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "hot": 50,
+          "iced": 55,
+          "frappe": 65
+        }
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🍫"
+    },
+    {
+      "nameTh": "นมชมพู",
+      "nameEn": {
+        "name": "Pink Milk",
+        "slug": "pink-milk"
+      },
+      "description": {
+        "th": "นมสดเย็นๆ กับน้ำแดงหอมหวาน",
+        "en": "Cold fresh milk with sweet, fragrant red syrup"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "iced": 45,
+          "frappe": 55
+        }
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🥛"
+    },
+    {
+      "nameTh": "อิตาเลียนโซดาบลูฮาวาย",
+      "nameEn": {
+        "name": "Blue Hawaii Italian Soda",
+        "slug": "italian-soda"
+      },
+      "description": {
+        "th": "โซดาซ่าๆ ไซรัปบลูฮาวาย สีสวยดื่มสดชื่น",
+        "en": "Sparkling soda with Blue Hawaii syrup, bright and refreshing"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 45
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🥤"
+    }
+  ]
+}

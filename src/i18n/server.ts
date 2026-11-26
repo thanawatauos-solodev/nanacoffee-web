@@ -11,8 +11,9 @@ const dictionaries: Record<Locale, Dictionary> = { th, en };
  * (Root param getters can't be used in Client Components or Route Handlers.)
  */
 export async function getLocale(): Promise<Locale> {
+  // `undefined` outside app/[lang] (the admin has its own root layout).
   const value = await lang();
-  if (!isLocale(value)) notFound();
+  if (value === undefined || !isLocale(value)) notFound();
   return value;
 }
 
