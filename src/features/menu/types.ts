@@ -28,6 +28,8 @@ type BaseMenuItem = {
   image?: string;
   tags?: MenuTag[];
   spicy?: 1 | 2 | 3;
+  /** Other names customers use ("สเต๊กหมู"), for menu search and spotting the dish in reviews. */
+  aliases?: string[];
 };
 
 /** An item has either one fixed price or a set of variants (hot / iced / frappe), never both. */

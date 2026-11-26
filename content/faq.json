@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "question": {
+        "th": "สั่งอาหารกลับบ้านได้ไหม?",
+        "en": "Can I order food to take away?"
+      },
+      "answer": {
+        "th": "ได้ โทร {phone} สั่งล่วงหน้า แล้วแวะมารับที่ร้านได้เลย ไม่ต้องรอนาน",
+        "en": "Yes. Call {phone} to order ahead, then pick it up at the shop with no waiting."
+      }
+    },
+    {
+      "question": {
+        "th": "ร้านมีที่จอดรถไหม?",
+        "en": "Is there parking?"
+      },
+      "answer": {
+        "th": "มีที่จอดรถสำหรับลูกค้า แวะได้สะดวก ไม่ต้องวนหาที่จอด",
+        "en": "Yes, there is customer parking, so it's easy to stop by."
+      }
+    },
+    {
+      "question": {
+        "th": "มีห้องแอร์ไหม?",
+        "en": "Is there an air-conditioned area?"
+      },
+      "answer": {
+        "th": "มีห้องแอร์เย็นสบาย เหมาะกับนั่งทำงาน อ่านหนังสือ หรือประชุมกลุ่มเล็ก และมีโซนทั่วไปที่โปร่งเป็นกันเอง",
+        "en": "Yes. The air-conditioned room is great for working, reading or small meetings, and there is also a relaxed open seating area."
+      }
+    },
+    {
+      "question": {
+        "th": "ร้านเปิดกี่โมง?",
+        "en": "What are your opening hours?"
+      },
+      "answer": {
+        "th": "เปิดทุกวัน {open} – {close} น. ที่ {address}",
+        "en": "Open every day, {open} – {close}, at {address}."
+      }
+    }
+  ]
+}

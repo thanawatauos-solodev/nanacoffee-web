@@ -1,0 +1,189 @@
+{
+  "name": {
+    "th": "กาแฟ",
+    "en": "Coffee"
+  },
+  "blurb": {
+    "th": "คั่วกลางค่อนเข้ม หอมกลมกล่อม",
+    "en": "Medium-dark roast, smooth and well rounded"
+  },
+  "items": [
+    {
+      "nameTh": "เอสเย็น",
+      "nameEn": {
+        "name": "Thai Iced Espresso",
+        "slug": "es-yen"
+      },
+      "description": {
+        "th": "เอสเปรสโซช็อตเข้ม นมข้นหวาน นมสด สูตรเอสเย็นแบบไทยแท้",
+        "en": "A strong espresso shot with sweetened condensed milk and fresh milk, Thai-style"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "iced": 60,
+          "frappe": 70
+        }
+      },
+      "tags": [
+        "signature"
+      ],
+      "spicy": "0",
+      "emoji": "🧋"
+    },
+    {
+      "nameTh": "เอสเปรสโซ",
+      "nameEn": {
+        "name": "Espresso",
+        "slug": "espresso"
+      },
+      "description": {
+        "th": "ช็อตเข้มข้น บอดี้หนัก กลิ่นช็อกโกแลตและคาราเมล",
+        "en": "A rich, full-bodied shot with notes of chocolate and caramel"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "hot": 45,
+          "iced": 55
+        }
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "☕"
+    },
+    {
+      "nameTh": "อเมริกาโน่",
+      "nameEn": {
+        "name": "Americano",
+        "slug": "americano"
+      },
+      "description": {
+        "th": "กาแฟดำนุ่ม หอมสะอาด ไม่มีน้ำตาล",
+        "en": "Smooth, clean black coffee with no sugar"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "hot": 45,
+          "iced": 55
+        }
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "☕"
+    },
+    {
+      "nameTh": "ลาเต้",
+      "nameEn": {
+        "name": "Caffè Latte",
+        "slug": "latte"
+      },
+      "description": {
+        "th": "เอสเปรสโซกับนมสดนุ่มละมุน ฟองนมเนียน",
+        "en": "Espresso with silky steamed milk and fine foam"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "hot": 50,
+          "iced": 60,
+          "frappe": 70
+        }
+      },
+      "tags": [
+        "bestseller"
+      ],
+      "spicy": "0",
+      "emoji": "☕"
+    },
+    {
+      "nameTh": "คาปูชิโน่",
+      "nameEn": {
+        "name": "Cappuccino",
+        "slug": "cappuccino"
+      },
+      "description": {
+        "th": "ฟองนมหนานุ่ม โรยผงโกโก้ หอมกรุ่น",
+        "en": "Thick, velvety milk foam dusted with cocoa"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "hot": 50,
+          "iced": 60,
+          "frappe": 70
+        }
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "☕"
+    },
+    {
+      "nameTh": "มอคค่า",
+      "nameEn": {
+        "name": "Mocha",
+        "slug": "mocha"
+      },
+      "description": {
+        "th": "กาแฟผสานช็อกโกแลตเข้มข้น หวานกำลังดี",
+        "en": "Coffee blended with rich chocolate, just sweet enough"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "hot": 55,
+          "iced": 65,
+          "frappe": 75
+        }
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "☕"
+    },
+    {
+      "nameTh": "คาราเมลมัคคิอาโต้",
+      "nameEn": {
+        "name": "Caramel Macchiato",
+        "slug": "caramel-macchiato"
+      },
+      "description": {
+        "th": "นมสด วานิลลา เอสเปรสโซ ราดซอสคาราเมล",
+        "en": "Fresh milk, vanilla and espresso finished with caramel sauce"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "hot": 60,
+          "iced": 70,
+          "frappe": 80
+        }
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🍮"
+    },
+    {
+      "nameTh": "อเมริกาโน่น้ำผึ้งมะนาว",
+      "nameEn": {
+        "name": "Honey Lemon Americano",
+        "slug": "honey-lemon-americano"
+      },
+      "description": {
+        "th": "กาแฟดำเย็น น้ำผึ้งแท้ มะนาวสด สดชื่นสุดๆ",
+        "en": "Iced black coffee with real honey and fresh lime, wonderfully refreshing"
+      },
+      "price": {
+        "discriminant": "variants",
+        "value": {
+          "iced": 65
+        }
+      },
+      "tags": [
+        "new"
+      ],
+      "spicy": "0",
+      "emoji": "🍯"
+    }
+  ]
+}

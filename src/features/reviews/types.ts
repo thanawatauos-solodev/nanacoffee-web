@@ -26,6 +26,6 @@ export type Review = {
   /** Optional translations, shown (and labelled as translated) on the other language's pages. */
   translations?: Partial<Record<Locale, string>>;
   topics: readonly ReviewTopic[];
-  /** Menu item ids the review mentions; shown as links to the menu. */
+  /** Menu item ids the review mentions, found from the dish names in its text; shown as links to the menu. */
   dishIds?: readonly string[];
 };

@@ -18,7 +18,7 @@ export function menuJsonLd(locale: Locale) {
     name: `${t.menu.metaTitle} · ${siteConfig.name} ${siteConfig.nameTh} ${t.site.branch}`,
     url,
     inLanguage: locale,
-    hasMenuSection: categories.map((category) => ({
+    hasMenuSection: categories.filter((category) => getItemsByCategory(category.id).length > 0).map((category) => ({
       "@type": "MenuSection",
       name: category.name[locale],
       description: category.blurb[locale],

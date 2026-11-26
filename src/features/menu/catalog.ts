@@ -42,6 +42,31 @@ export function getMenuPriceRange(): { min: number; max: number } {
   return { min: Math.min(...ranges.map((r) => r.min)), max: Math.max(...ranges.map((r) => r.max)) };
 }
 
+// Every name a dish goes by, longest first, so "มัทฉะลาเต้" is claimed before "ลาเต้" can match inside it.
+const dishNameIndex = menuItems
+  .flatMap((item) =>
+    [item.name.th, item.name.en, ...(item.aliases ?? [])].map((name) => ({ name: name.trim().toLowerCase(), id: item.id })),
+  )
+  .filter(({ name }) => name.length >= 2)
+  .sort((a, b) => b.name.length - a.name.length);
+
+/**
+ * Ids of the dishes a piece of text mentions by name, in the order they first appear.
+ * Lets a review link to the dishes it talks about without anyone tagging them.
+ */
+export function findMentionedDishes(text: string): string[] {
+  let remaining = text.toLowerCase();
+  const found = new Map<string, number>();
+  for (const { name, id } of dishNameIndex) {
+    const at = remaining.indexOf(name);
+    if (at === -1) continue;
+    if (!found.has(id) || at < found.get(id)!) found.set(id, at);
+    // Blank out every match so shorter names can't match inside it.
+    remaining = remaining.replaceAll(name, "\u0000".repeat(name.length));
+  }
+  return [...found].sort((a, b) => a[1] - b[1]).map(([id]) => id);
+}
+
 /** The dish name in the reader's language, plus the other language as a subtitle. */
 export function dishNames(item: MenuItem, locale: Locale): { name: string; alt: string } {
   return locale === "th" ? { name: item.name.th, alt: item.name.en } : { name: item.name.en, alt: item.name.th };

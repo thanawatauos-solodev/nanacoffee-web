@@ -1,0 +1,21 @@
+{
+  "phone": "0816618014",
+  "hours": {
+    "open": "10:00",
+    "close": "21:00"
+  },
+  "address": {
+    "th": {
+      "street": "101 หมู่ 1 ถนนนิตโย",
+      "district": "สว่างแดนดิน",
+      "province": "สกลนคร"
+    },
+    "en": {
+      "street": "101 Moo 1, Nittayo Road",
+      "district": "Sawang Daen Din",
+      "province": "Sakon Nakhon"
+    },
+    "postalCode": "47110"
+  },
+  "social": {}
+}

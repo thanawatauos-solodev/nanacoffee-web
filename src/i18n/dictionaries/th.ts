@@ -1,15 +1,19 @@
+import { siteText } from "../site-text";
+
 /**
  * Thai UI copy, the source of truth for the dictionary shape: en.ts must provide every key.
+ * Page copy the shop can edit (text.*) comes from the admin, see src/i18n/site-text.ts.
  * {placeholders} are filled with `fill()`, and [[words]] are kept on one line by `rich()`.
  */
+const text = siteText("th");
+
 const th = {
   site: {
     branch: "สาขาสว่างแดนดิน",
     branchShort: "สว่างแดนดิน",
-    tagline: "คาเฟ่และร้านอาหาร บรรยากาศสบายๆ",
-    title: "NaNa Coffee นานาคอฟฟี่ สาขาสว่างแดนดิน | คาเฟ่และร้านอาหาร สกลนคร",
-    description:
-      "NaNa Coffee (นานาคอฟฟี่) สาขาสว่างแดนดิน จ.สกลนคร คาเฟ่และร้านอาหาร กาแฟสด อาหารไทย อาหารเวียดนาม และอาหารฝรั่ง บรรยากาศสบายๆ มีห้องแอร์และที่จอดรถ เปิดทุกวัน 10:00–21:00 น.",
+    tagline: text.site.tagline,
+    title: text.site.title,
+    description: text.site.description,
     keywords: [
       "NaNa Coffee",
       "นานาคอฟฟี่",
@@ -36,7 +40,7 @@ const th = {
     language: "เปลี่ยนภาษา",
   },
   footer: {
-    blurb: "มีห้องแอร์และที่จอดรถ แวะมาพักผ่อน จิบกาแฟ อิ่มอร่อยกับเราได้ทุกวัน",
+    blurb: text.footer.blurb,
     hours: "เวลาเปิด-ปิด",
     contact: "ติดต่อร้าน",
     directions: "นำทางด้วย Google Maps",
@@ -56,23 +60,20 @@ const th = {
   },
   hero: {
     welcome: "ยินดีต้อนรับสู่",
-    intro: "คาเฟ่และร้านอาหารที่สว่างแดนดิน กาแฟหอมกรุ่น อาหารไทย เวียดนาม และฝรั่ง ในบรรยากาศสบายๆ มีห้องแอร์เย็นฉ่ำและที่จอดรถ",
+    intro: text.hero.intro,
     seeMenu: "ดูเมนูทั้งหมด",
     call: "โทรหาร้าน",
     directions: "เปิดแผนที่นำทาง",
     line: "แชตผ่าน LINE",
     reviews: "รีวิวจากลูกค้า",
   },
-  ribbon: ["กาแฟสด", "อาหารไทย", "อาหารเวียดนาม", "สเต๊ก", "เค้กไอศกรีม", "ห้องแอร์", "ที่จอดรถ", "เปิดทุกวัน"],
+  ribbon: text.ribbon,
   story: {
     eyebrow: "Our Story",
-    titleStart: "กาแฟดี อาหารอร่อย",
-    titleAccent: "และเวลาดีๆ",
-    titleEnd: "[[ที่สว่างแดนดิน]]",
-    body: [
-      "NaNa Coffee (นานาคอฟฟี่) สาขาสว่างแดนดิน คือคาเฟ่และร้านอาหารบน[[ถนนนิตโย]] ที่รวมกาแฟหอมกรุ่นกับอาหารไทย เวียดนาม และฝรั่ง ไว้ในที่เดียว จะมาจิบกาแฟคนเดียว นัดเพื่อน หรือพาครอบครัวมาฉลองก็ลงตัว",
-      "เราตั้งใจให้ร้านเป็นเหมือนบ้านหลังที่สองของคนสกลนคร มีห้องแอร์เย็นสบายสำหรับนั่งทำงาน โซนทั่วไปที่โปร่งเป็นกันเอง และที่จอดรถให้แวะได้สะดวก",
-    ],
+    titleStart: text.story.titleStart,
+    titleAccent: text.story.titleAccent,
+    titleEnd: text.story.titleEnd,
+    body: text.story.body,
     facts: {
       days: { unit: "วัน", label: "จันทร์ – อาทิตย์" },
       hours: { unit: "ชม.", label: "{open} – {close} น." },
@@ -82,8 +83,8 @@ const th = {
   },
   signature: {
     eyebrow: "Signature",
-    title: "เมนูแนะนำของร้าน",
-    description: "จานเด็ดที่ลูกค้าประจำสั่งซ้ำ ตั้งแต่ยำปลาดุกฟูกรอบๆ ไปจนถึงเค้กไอศกรีมเย็นชื่นใจ",
+    title: text.signature.title,
+    description: text.signature.description,
     seeAll: "ดูเมนูทั้งหมด",
   },
   promotions: {
@@ -97,15 +98,9 @@ const th = {
   },
   amenities: {
     eyebrow: "Our Place",
-    title: "มุมพักใจบน[[ถนนนิตโย]] [[ที่สว่างแดนดิน]]",
-    description:
-      "คาเฟ่และร้านอาหารที่อยากให้ทุกคนรู้สึกเหมือนแวะมาบ้านเพื่อน กาแฟดี อาหารอร่อย และที่นั่งสบายๆ ให้คุณอยู่ได้นานเท่าที่ต้องการ",
-    items: {
-      airConditioned: { title: "ห้องแอร์เย็นสบาย", body: "นั่งทำงาน อ่านหนังสือ หรือนัดเพื่อนได้นานๆ" },
-      parking: { title: "มีที่จอดรถ", body: "แวะได้สะดวก ไม่ต้องวนหาที่จอด" },
-      atmosphere: { title: "บรรยากาศสบายๆ", body: "มุมนั่งชิลล์ เป็นกันเอง เหมาะทั้งครอบครัวและเพื่อน" },
-      takeaway: { title: "สั่งกลับบ้านได้", body: "โทรสั่งไว้ก่อน แวะรับที่ร้านได้เลย ไม่ต้องรอนาน" },
-    },
+    title: text.amenities.title,
+    description: text.amenities.description,
+    items: text.amenities.items,
   },
   visit: {
     eyebrow: "Visit Us",
@@ -132,7 +127,7 @@ const th = {
   menu: {
     eyebrow: "Our Menu",
     title: "เมนูอาหาร & เครื่องดื่ม",
-    intro: "อาหารไทย เวียดนาม ฝรั่ง กาแฟ ชา และของหวาน ทานที่ร้านหรือโทรสั่งกลับบ้านก็ได้",
+    intro: text.menu.intro,
     metaTitle: "เมนูอาหารและเครื่องดื่ม",
     metaDescription:
       "เมนู NaNa Coffee นานาคอฟฟี่ สาขาสว่างแดนดิน พร้อมราคา อาหารไทย เช่น ยำปลาดุกฟู แกงเลียงกุ้งสด อาหารเวียดนาม แหนมเนือง สเต๊ก ข้าวผัดอเมริกัน กาแฟ ชา และเค้กไอศกรีม",
@@ -149,17 +144,17 @@ const th = {
     spicy: "เผ็ดระดับ {level} จาก 3",
     takeaway: {
       eyebrow: "Take away",
-      title: "อยากสั่งกลับบ้าน?",
-      body: "โทรสั่งล่วงหน้า แล้วแวะมารับที่ร้านได้เลย ไม่ต้องรอนาน",
+      title: text.menu.takeaway.title,
+      body: text.menu.takeaway.body,
       cta: "โทรสั่งอาหาร",
     },
   },
   reviews: {
     eyebrow: "Reviews",
-    sectionTitle: "เสียงจากลูกค้าของเรา",
-    sectionDescription: "ขอบคุณทุกคำชมและคำแนะนำ เราอ่านทุกรีวิวและนำไปปรับปรุงร้านให้ดีขึ้นเสมอ",
+    sectionTitle: text.reviews.sectionTitle,
+    sectionDescription: text.reviews.sectionDescription,
     pageTitle: "รีวิวจากลูกค้า",
-    pageIntro: "ทุกคำชมและคำแนะนำมีความหมายกับเรา ขอบคุณที่แวะมาและเล่าประสบการณ์ให้คนอื่นได้รู้",
+    pageIntro: text.reviews.pageIntro,
     metaDescription:
       "รีวิว NaNa Coffee นานาคอฟฟี่ สาขาสว่างแดนดิน จ.สกลนคร เรื่องกาแฟ อาหาร ของหวาน บรรยากาศห้องแอร์ และการบริการ",
     outOf: "จาก {count} รีวิว",
@@ -181,8 +176,8 @@ const th = {
     showing: "แสดง {count} รีวิว",
     thanks: {
       eyebrow: "Thank you!",
-      title: "ชอบร้านเราไหม?",
-      body: "รีวิวสั้นๆ บน Google ช่วยให้คนในสว่างแดนดินและนักเดินทางหาร้านเราเจอง่ายขึ้นมาก ขอบคุณทุกรีวิวจากใจ",
+      title: text.reviews.thanks.title,
+      body: text.reviews.thanks.body,
     },
   },
   contactPage: {

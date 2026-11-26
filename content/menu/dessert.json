@@ -1,0 +1,124 @@
+{
+  "name": {
+    "th": "ของหวาน",
+    "en": "Dessert"
+  },
+  "blurb": {
+    "th": "เค้กไอศกรีมและของหวานคู่กาแฟ",
+    "en": "Ice cream cakes and sweet treats to go with your coffee"
+  },
+  "items": [
+    {
+      "nameTh": "เค้กไอศกรีมช็อกโกแลต",
+      "nameEn": {
+        "name": "Chocolate Ice Cream Cake",
+        "slug": "ice-cream-cake-chocolate"
+      },
+      "description": {
+        "th": "ไอศกรีมช็อกโกแลตเข้มข้นบนเค้กนุ่ม ราดกานาช (ต่อชิ้น)",
+        "en": "Rich chocolate ice cream on soft sponge cake with ganache (per slice)"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 89
+      },
+      "tags": [
+        "signature"
+      ],
+      "spicy": "0",
+      "emoji": "🍰"
+    },
+    {
+      "nameTh": "เค้กไอศกรีมสตรอว์เบอร์รี",
+      "nameEn": {
+        "name": "Strawberry Ice Cream Cake",
+        "slug": "ice-cream-cake-strawberry"
+      },
+      "description": {
+        "th": "ไอศกรีมสตรอว์เบอร์รีหอมหวาน เนื้อเค้กวานิลลา (ต่อชิ้น)",
+        "en": "Sweet strawberry ice cream on vanilla sponge (per slice)"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 89
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🍓"
+    },
+    {
+      "nameTh": "ฮันนี่โทสต์",
+      "nameEn": {
+        "name": "Honey Toast",
+        "slug": "honey-toast"
+      },
+      "description": {
+        "th": "ขนมปังเนยอบกรอบ ราดน้ำผึ้ง วิปครีม และไอศกรีมวานิลลา",
+        "en": "Buttery toasted bread with honey, whipped cream and vanilla ice cream"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 129
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🍞"
+    },
+    {
+      "nameTh": "บราวนี่อุ่นๆ ไอศกรีม",
+      "nameEn": {
+        "name": "Warm Brownie à la Mode",
+        "slug": "brownie-ice-cream"
+      },
+      "description": {
+        "th": "บราวนี่หนึบอุ่นๆ เสิร์ฟคู่ไอศกรีมวานิลลา",
+        "en": "A warm, fudgy brownie served with vanilla ice cream"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 85
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🍨"
+    },
+    {
+      "nameTh": "บิงซูชาไทย",
+      "nameEn": {
+        "name": "Thai Tea Bingsu",
+        "slug": "thai-tea-bingsu"
+      },
+      "description": {
+        "th": "น้ำแข็งไสนมเนื้อนุ่ม ราดชาไทย ท็อปปิ้งขนมปังกรอบ",
+        "en": "Fluffy shaved milk ice drizzled with Thai tea and topped with crunchy toast"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 139
+      },
+      "tags": [
+        "new"
+      ],
+      "spicy": "0",
+      "emoji": "🍧"
+    },
+    {
+      "nameTh": "วาฟเฟิลไอศกรีม",
+      "nameEn": {
+        "name": "Waffle & Ice Cream",
+        "slug": "waffle-ice-cream"
+      },
+      "description": {
+        "th": "วาฟเฟิลกรอบนอกนุ่มใน ไอศกรีม 2 สกู๊ป ซอสช็อกโกแลต",
+        "en": "Crisp-yet-fluffy waffle with two scoops of ice cream and chocolate sauce"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 99
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🧇"
+    }
+  ]
+}

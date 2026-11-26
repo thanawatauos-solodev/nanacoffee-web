@@ -10,6 +10,7 @@ import { FoodPlate } from "./food-plate";
 export async function SignatureMenu() {
   const [locale, t] = await Promise.all([getLocale(), getDictionary()]);
   const items = getSignatureItems();
+  if (items.length === 0) return null;
 
   return (
     <section aria-labelledby="signature-title" className="mx-auto max-w-6xl px-4 sm:px-6">

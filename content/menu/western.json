@@ -1,0 +1,161 @@
+{
+  "name": {
+    "th": "อาหารฝรั่ง",
+    "en": "Western"
+  },
+  "blurb": {
+    "th": "สเต๊ก พาสต้า และจานอิ่มสไตล์คาเฟ่",
+    "en": "Steaks, pasta and hearty café plates"
+  },
+  "items": [
+    {
+      "nameTh": "สเต๊กหมูพริกไทยดำ",
+      "nameEn": {
+        "name": "Black Pepper Pork Steak",
+        "slug": "pork-steak"
+      },
+      "description": {
+        "th": "สันคอหมูย่าง ซอสพริกไทยดำ มันบด สลัดผัก และขนมปังกระเทียม",
+        "en": "Grilled pork neck with black pepper sauce, mashed potato, salad and garlic bread"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 159
+      },
+      "tags": [
+        "signature"
+      ],
+      "spicy": "0",
+      "emoji": "🍖",
+      "aliases": "สเต๊กหมู"
+    },
+    {
+      "nameTh": "สเต๊กเนื้อซอสเกรวี่",
+      "nameEn": {
+        "name": "Beef Steak with Gravy",
+        "slug": "beef-steak"
+      },
+      "description": {
+        "th": "เนื้อย่างตามระดับที่ชอบ ซอสเกรวี่เข้มข้น เฟรนช์ฟรายส์ และผักย่าง",
+        "en": "Beef grilled to your liking with rich gravy, French fries and grilled vegetables"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 259
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🥩"
+    },
+    {
+      "nameTh": "สเต๊กไก่ซอสเห็ด",
+      "nameEn": {
+        "name": "Chicken Steak, Mushroom Sauce",
+        "slug": "chicken-steak"
+      },
+      "description": {
+        "th": "สะโพกไก่ย่างหนังกรอบ ซอสครีมเห็ด มันบด และสลัด",
+        "en": "Crispy-skinned grilled chicken thigh with creamy mushroom sauce, mashed potato and salad"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 139
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🍗"
+    },
+    {
+      "nameTh": "ข้าวผัดอเมริกัน",
+      "nameEn": {
+        "name": "American Fried Rice",
+        "slug": "american-fried-rice"
+      },
+      "description": {
+        "th": "ข้าวผัดซอสมะเขือเทศ ไก่ทอด ไส้กรอก แฮม และไข่ดาว",
+        "en": "Tomato-ketchup fried rice with fried chicken, sausage, ham and a fried egg"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 99
+      },
+      "tags": [
+        "bestseller"
+      ],
+      "spicy": "0",
+      "emoji": "🍛"
+    },
+    {
+      "nameTh": "สปาเกตตีคาโบนารา",
+      "nameEn": {
+        "name": "Spaghetti Carbonara",
+        "slug": "carbonara"
+      },
+      "description": {
+        "th": "ซอสครีมไข่แดง เบคอนกรอบ ชีสพาร์เมซาน พริกไทยดำ",
+        "en": "Creamy egg-yolk sauce, crispy bacon, Parmesan and black pepper"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 129
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🍝"
+    },
+    {
+      "nameTh": "สปาเกตตีขี้เมาทะเล",
+      "nameEn": {
+        "name": "Spicy Seafood Spaghetti",
+        "slug": "spaghetti-kee-mao"
+      },
+      "description": {
+        "th": "ผัดพริกสดกระเทียม กุ้ง หมึก หอยแมลงภู่ หอมใบกะเพรา",
+        "en": "Spaghetti stir-fried with chilli, garlic, shrimp, squid, mussels and holy basil"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 139
+      },
+      "tags": [],
+      "spicy": "3",
+      "emoji": "🦐"
+    },
+    {
+      "nameTh": "คลับแซนด์วิช",
+      "nameEn": {
+        "name": "Club Sandwich",
+        "slug": "club-sandwich"
+      },
+      "description": {
+        "th": "ขนมปังปิ้ง แฮม ไก่ ไข่ ชีส ผักสด เสิร์ฟพร้อมเฟรนช์ฟรายส์",
+        "en": "Toasted bread layered with ham, chicken, egg, cheese and fresh salad, served with fries"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 119
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🥪"
+    },
+    {
+      "nameTh": "เฟรนช์ฟรายส์",
+      "nameEn": {
+        "name": "French Fries",
+        "slug": "french-fries"
+      },
+      "description": {
+        "th": "มันฝรั่งทอดกรอบนอกนุ่มใน จิ้มซอสมะเขือเทศหรือมายองเนส",
+        "en": "Crispy outside, fluffy inside, with ketchup or mayonnaise"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 59
+      },
+      "tags": [],
+      "spicy": "0",
+      "emoji": "🍟"
+    }
+  ]
+}

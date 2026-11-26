@@ -1,0 +1,188 @@
+{
+  "site": {
+    "tagline": {
+      "th": "คาเฟ่และร้านอาหาร บรรยากาศสบายๆ",
+      "en": "A relaxed café & restaurant"
+    },
+    "title": {
+      "th": "NaNa Coffee นานาคอฟฟี่ สาขาสว่างแดนดิน | คาเฟ่และร้านอาหาร สกลนคร",
+      "en": "NaNa Coffee (นานาคอฟฟี่) Sawang Daen Din | Café & Restaurant in Sakon Nakhon"
+    },
+    "description": {
+      "th": "NaNa Coffee (นานาคอฟฟี่) สาขาสว่างแดนดิน จ.สกลนคร คาเฟ่และร้านอาหาร กาแฟสด อาหารไทย อาหารเวียดนาม และอาหารฝรั่ง บรรยากาศสบายๆ มีห้องแอร์และที่จอดรถ เปิดทุกวัน 10:00–21:00 น.",
+      "en": "NaNa Coffee (นานาคอฟฟี่) in Sawang Daen Din, Sakon Nakhon: a relaxed café and restaurant serving fresh coffee, Thai, Vietnamese and Western food, with an air-conditioned room and parking. Open daily 10:00–21:00."
+    }
+  },
+  "hero": {
+    "intro": {
+      "th": "คาเฟ่และร้านอาหารที่สว่างแดนดิน กาแฟหอมกรุ่น อาหารไทย เวียดนาม และฝรั่ง ในบรรยากาศสบายๆ มีห้องแอร์เย็นฉ่ำและที่จอดรถ",
+      "en": "A café and restaurant in Sawang Daen Din: fragrant coffee and Thai, Vietnamese and Western dishes in a relaxed setting, with a cool air-conditioned room and parking."
+    }
+  },
+  "ribbon": [
+    {
+      "th": "กาแฟสด",
+      "en": "Fresh coffee"
+    },
+    {
+      "th": "อาหารไทย",
+      "en": "Thai food"
+    },
+    {
+      "th": "อาหารเวียดนาม",
+      "en": "Vietnamese"
+    },
+    {
+      "th": "สเต๊ก",
+      "en": "Steaks"
+    },
+    {
+      "th": "เค้กไอศกรีม",
+      "en": "Ice cream cake"
+    },
+    {
+      "th": "ห้องแอร์",
+      "en": "Air-con room"
+    },
+    {
+      "th": "ที่จอดรถ",
+      "en": "Parking"
+    },
+    {
+      "th": "เปิดทุกวัน",
+      "en": "Open daily"
+    }
+  ],
+  "story": {
+    "titleStart": {
+      "th": "กาแฟดี อาหารอร่อย",
+      "en": "Good coffee, great food"
+    },
+    "titleAccent": {
+      "th": "และเวลาดีๆ",
+      "en": "and good times"
+    },
+    "titleEnd": {
+      "th": "[[ที่สว่างแดนดิน]]",
+      "en": "in [[Sawang Daen Din]]"
+    },
+    "body": [
+      {
+        "th": "NaNa Coffee (นานาคอฟฟี่) สาขาสว่างแดนดิน คือคาเฟ่และร้านอาหารบน[[ถนนนิตโย]] ที่รวมกาแฟหอมกรุ่นกับอาหารไทย เวียดนาม และฝรั่ง ไว้ในที่เดียว จะมาจิบกาแฟคนเดียว นัดเพื่อน หรือพาครอบครัวมาฉลองก็ลงตัว",
+        "en": "NaNa Coffee (นานาคอฟฟี่) Sawang Daen Din is a café and restaurant on [[Nittayo Road]] that brings fragrant coffee together with Thai, Vietnamese and Western food under one roof. Come for a quiet coffee, meet friends, or celebrate with the whole family."
+      },
+      {
+        "th": "เราตั้งใจให้ร้านเป็นเหมือนบ้านหลังที่สองของคนสกลนคร มีห้องแอร์เย็นสบายสำหรับนั่งทำงาน โซนทั่วไปที่โปร่งเป็นกันเอง และที่จอดรถให้แวะได้สะดวก",
+        "en": "We want the shop to feel like a second home in Sakon Nakhon: a cool air-conditioned room for working, a relaxed open area for friends and family, and parking for an easy stop."
+      }
+    ]
+  },
+  "signature": {
+    "title": {
+      "th": "เมนูแนะนำของร้าน",
+      "en": "House favourites"
+    },
+    "description": {
+      "th": "จานเด็ดที่ลูกค้าประจำสั่งซ้ำ ตั้งแต่ยำปลาดุกฟูกรอบๆ ไปจนถึงเค้กไอศกรีมเย็นชื่นใจ",
+      "en": "The dishes our regulars order again and again, from crispy catfish salad to ice cream cake."
+    }
+  },
+  "amenities": {
+    "title": {
+      "th": "มุมพักใจบน[[ถนนนิตโย]] [[ที่สว่างแดนดิน]]",
+      "en": "A cosy corner on [[Nittayo Road]]"
+    },
+    "description": {
+      "th": "คาเฟ่และร้านอาหารที่อยากให้ทุกคนรู้สึกเหมือนแวะมาบ้านเพื่อน กาแฟดี อาหารอร่อย และที่นั่งสบายๆ ให้คุณอยู่ได้นานเท่าที่ต้องการ",
+      "en": "A café and restaurant that feels like dropping by a friend's place: good coffee, tasty food and comfy seats you can stay in as long as you like."
+    },
+    "items": {
+      "airConditioned": {
+        "title": {
+          "th": "ห้องแอร์เย็นสบาย",
+          "en": "Cool air-con room"
+        },
+        "body": {
+          "th": "นั่งทำงาน อ่านหนังสือ หรือนัดเพื่อนได้นานๆ",
+          "en": "Work, read or catch up with friends for as long as you like"
+        }
+      },
+      "parking": {
+        "title": {
+          "th": "มีที่จอดรถ",
+          "en": "Parking"
+        },
+        "body": {
+          "th": "แวะได้สะดวก ไม่ต้องวนหาที่จอด",
+          "en": "Easy to stop by, no circling for a space"
+        }
+      },
+      "atmosphere": {
+        "title": {
+          "th": "บรรยากาศสบายๆ",
+          "en": "Relaxed atmosphere"
+        },
+        "body": {
+          "th": "มุมนั่งชิลล์ เป็นกันเอง เหมาะทั้งครอบครัวและเพื่อน",
+          "en": "Laid-back, friendly corners for families and friends"
+        }
+      },
+      "takeaway": {
+        "title": {
+          "th": "สั่งกลับบ้านได้",
+          "en": "Takeaway"
+        },
+        "body": {
+          "th": "โทรสั่งไว้ก่อน แวะรับที่ร้านได้เลย ไม่ต้องรอนาน",
+          "en": "Call ahead and pick it up at the shop, no waiting"
+        }
+      }
+    }
+  },
+  "menu": {
+    "intro": {
+      "th": "อาหารไทย เวียดนาม ฝรั่ง กาแฟ ชา และของหวาน ทานที่ร้านหรือโทรสั่งกลับบ้านก็ได้",
+      "en": "Thai, Vietnamese and Western food, coffee, tea and desserts. Eat in, or call ahead to take away."
+    },
+    "takeaway": {
+      "title": {
+        "th": "อยากสั่งกลับบ้าน?",
+        "en": "Ordering to take away?"
+      },
+      "body": {
+        "th": "โทรสั่งล่วงหน้า แล้วแวะมารับที่ร้านได้เลย ไม่ต้องรอนาน",
+        "en": "Call ahead and pick up your order at the shop, no waiting."
+      }
+    }
+  },
+  "reviews": {
+    "sectionTitle": {
+      "th": "เสียงจากลูกค้าของเรา",
+      "en": "What our guests say"
+    },
+    "sectionDescription": {
+      "th": "ขอบคุณทุกคำชมและคำแนะนำ เราอ่านทุกรีวิวและนำไปปรับปรุงร้านให้ดีขึ้นเสมอ",
+      "en": "Thank you for every kind word and suggestion. We read every review and keep making the shop better."
+    },
+    "pageIntro": {
+      "th": "ทุกคำชมและคำแนะนำมีความหมายกับเรา ขอบคุณที่แวะมาและเล่าประสบการณ์ให้คนอื่นได้รู้",
+      "en": "Every compliment and suggestion matters to us. Thank you for visiting and sharing your experience."
+    },
+    "thanks": {
+      "title": {
+        "th": "ชอบร้านเราไหม?",
+        "en": "Enjoyed your visit?"
+      },
+      "body": {
+        "th": "รีวิวสั้นๆ บน Google ช่วยให้คนในสว่างแดนดินและนักเดินทางหาร้านเราเจอง่ายขึ้นมาก ขอบคุณทุกรีวิวจากใจ",
+        "en": "A short Google review helps locals and travellers find us. We're grateful for every one."
+      }
+    }
+  },
+  "footer": {
+    "blurb": {
+      "th": "มีห้องแอร์และที่จอดรถ แวะมาพักผ่อน จิบกาแฟ อิ่มอร่อยกับเราได้ทุกวัน",
+      "en": "Air-conditioned seating and parking. Drop by for coffee and a good meal any day of the week."
+    }
+  }
+}
