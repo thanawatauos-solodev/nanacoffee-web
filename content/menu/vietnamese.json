@@ -13,19 +13,19 @@
         "name": "ผัดกะเพรา",
         "slug": "menu-u9xfwc"
       },
-      "nameEn": "Nem Nuong Platter",
+      "nameEn": "Pad Kra Pao",
       "description": {
-        "th": "แหนมย่างหอมกรุ่น แผ่นแป้งเวียดนาม ผักสดและน้ำจิ้มสูตรเฉพาะร้าน",
-        "en": "Grilled Vietnamese pork sausage with rice paper, fresh herbs and our signature dipping sauce"
+        "th": "ผัดกะเพรา (Pad Kra Pao) เป็นอาหารจานเดียวและกับข้าวยอดนิยมอันดับต้นๆ ของไทย โดดเด่นด้วยรสชาติที่จัดจ้าน เผ็ดร้อน และมีกลิ่นหอมที่เป็นเอกลักษณ์จาก \"ใบกะเพรา\" ซึ่งเข้ากันได้ดีกับเนื้อสัตว์หลากหลายชนิด",
+        "en": "• Thailand’s most beloved street food dish. Your choice of meat wok-fried over high heat with crushed chilies, aromatic garlic, umami-rich seasoning sauces, and a generous handful of peppery Thai holy basil. Bold, spicy, and deeply flavorful.\n"
       },
       "price": {
         "discriminant": "single",
         "value": 60
       },
       "tags": [
-        "signature"
+        "bestseller"
       ],
-      "spicy": "0",
+      "spicy": "1",
       "image": "/menu/vietnamese/items/menu-u9xfwc/image.jpg",
       "emoji": "🌯"
     },
