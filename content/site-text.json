@@ -179,6 +179,12 @@
       }
     }
   },
+  "tour": {
+    "intro": {
+      "th": "ดูบรรยากาศร้านก่อนแวะมา ทั้งเคาน์เตอร์กาแฟ โซนทั่วไป และห้องแอร์เย็นสบาย",
+      "en": "Take a look around before you visit: the coffee counter, the main dining area and the cool air-conditioned room."
+    }
+  },
   "footer": {
     "blurb": {
       "th": "มีห้องแอร์และที่จอดรถ แวะมาพักผ่อน จิบกาแฟ อิ่มอร่อยกับเราได้ทุกวัน",

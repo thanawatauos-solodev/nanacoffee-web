@@ -31,6 +31,27 @@ function localized(label: string, options: { multiline?: boolean; description?: 
 
 const noWrapHint = "ครอบคำด้วย [[ ]] ถ้าไม่อยากให้ตัดบรรทัดกลางคำ เช่น [[ถนนนิตโย]]";
 
+/**
+ * Builds the id of a list item (a dish, a tour spot) from its Thai name, so staff never have to
+ * think about it. Keystatic keeps the id once saved; it names the item's image folder.
+ * A name in English letters becomes a readable id ("Latte" → "latte"); anything else, such as Thai,
+ * becomes the prefix plus a short code from the name. Never empty for a non-empty name, which
+ * Keystatic's slug check would refuse.
+ */
+export function idFromName(prefix: string) {
+  return (name: string) => {
+    const trimmed = name.trim();
+    if (!trimmed) return "";
+    if (/^[\x20-\x7e]+$/.test(trimmed)) {
+      const latin = trimmed.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+      if (latin) return latin;
+    }
+    let hash = 0x811c9dc5;
+    for (const char of trimmed) hash = Math.imul(hash ^ char.codePointAt(0)!, 0x01000193) >>> 0;
+    return `${prefix}-${hash.toString(36)}`;
+  };
+}
+
 // ── Store details ────────────────────────────────────────────────────
 
 const clock = (label: string) =>
@@ -181,9 +202,59 @@ const siteText = singleton({
       },
       { label: "รีวิว" },
     ),
+    tour: fields.object(
+      { intro: localized("คำแนะนำใต้หัวข้อ", { multiline: true }) },
+      { label: "หน้าทัวร์ 360°" },
+    ),
     footer: fields.object(
       { blurb: localized("ข้อความแนะนำร้านส่วนท้าย", { multiline: true }) },
       { label: "ส่วนท้ายของทุกหน้า" },
+    ),
+  },
+});
+
+// ── 360° tour ────────────────────────────────────────────────────────
+
+const tour = singleton({
+  label: "ทัวร์ 360°",
+  path: "content/tour",
+  format: { data: "json" },
+  schema: {
+    isSample: fields.checkbox({
+      label: "ยังเป็นภาพตัวอย่าง",
+      description:
+        "ติ๊กไว้ = หน้าทัวร์ขึ้นป้ายว่าเป็นภาพตัวอย่าง และยังไม่มีลิงก์จากหน้าแรก เอาติ๊กออกเมื่อใส่รูปร้านจริงครบแล้ว",
+    }),
+    spots: fields.array(
+      fields.object(
+        {
+          nameTh: fields.slug({
+            name: { label: "ชื่อจุด (ไทย)", description: "เช่น หน้าร้าน ห้องแอร์ เคาน์เตอร์", validation: { isRequired: true } },
+            slug: {
+              label: "รหัสจุด",
+              description: "สร้างให้อัตโนมัติ ใช้ตั้งชื่อไฟล์รูป ไม่ต้องแก้",
+              generate: idFromName("spot"),
+            },
+          }),
+          nameEn: fields.text({ label: "ชื่อจุด (English)", description: "เว้นว่างได้ หน้าภาษาอังกฤษจะแสดงชื่อไทยแทน" }),
+          description: localized("คำอธิบายสั้นๆ", { multiline: true }),
+          image: fields.image({
+            label: "รูป 360°",
+            description:
+              "รูปจากกล้อง 360° แบบภาพแผ่ (สัดส่วน 2:1 เช่น 6000×3000) ไฟล์ JPG ไม่เกินประมาณ 5 MB ด้านหน้ากล้องคือมุมแรกที่ลูกค้าเห็น",
+            directory: "public/tour",
+            publicPath: "/tour/",
+            validation: { isRequired: true },
+          }),
+        },
+        { layout: [6, 6, 12, 12] },
+      ),
+      {
+        label: "จุดในร้าน",
+        description: "ลูกค้าเริ่มดูจากจุดแรก แล้วกดชื่อจุดอื่นเพื่อเดินไปดู ลากเพื่อเรียงลำดับ",
+        slugField: "nameTh",
+        itemLabel: (props) => props.fields.nameTh.value.name || "จุดใหม่",
+      },
     ),
   },
 });
@@ -203,13 +274,17 @@ function menuCategory({ id, adminLabel }: (typeof categoryList)[number]) {
       items: fields.array(
         fields.object(
           {
-            nameTh: fields.text({ label: "ชื่อเมนู (ไทย)", validation: { isRequired: true } }),
-            nameEn: fields.slug({
-              name: { label: "ชื่อเมนู (English)", description: "เว้นว่างได้ หน้าภาษาอังกฤษจะแสดงชื่อไทยแทน" },
+            nameTh: fields.slug({
+              name: { label: "ชื่อเมนู (ไทย)", validation: { isRequired: true } },
               slug: {
                 label: "รหัสเมนู",
-                description: "สร้างจากชื่ออังกฤษให้อัตโนมัติ ใช้ตั้งชื่อไฟล์รูป ไม่ต้องแก้",
+                description: "สร้างให้อัตโนมัติ ใช้ตั้งชื่อไฟล์รูป ไม่ต้องแก้",
+                generate: idFromName("menu"),
               },
+            }),
+            nameEn: fields.text({
+              label: "ชื่อเมนู (English)",
+              description: "เว้นว่างได้ หน้าภาษาอังกฤษจะแสดงชื่อไทยแทน",
             }),
             description: localized("คำอธิบาย", { multiline: true }),
             price: fields.conditional(
@@ -265,9 +340,9 @@ function menuCategory({ id, adminLabel }: (typeof categoryList)[number]) {
         {
           label: "รายการเมนู",
           description: "ลากเพื่อเรียงลำดับตามที่อยากให้แสดงบนเว็บ",
-          slugField: "nameEn",
+          slugField: "nameTh",
           itemLabel: (props) => {
-            const name = props.fields.nameTh.value || "เมนูใหม่";
+            const name = props.fields.nameTh.value.name || "เมนูใหม่";
             const price = props.fields.price;
             if (price.discriminant === "single") return price.value.value === null ? name : `${name} · ฿${price.value.value}`;
             const prices = [price.value.fields.hot.value, price.value.fields.iced.value, price.value.fields.frappe.value].filter(
@@ -447,10 +522,10 @@ export default config({
   ui: {
     brand: { name: "NaNa Coffee" },
     navigation: {
-      ร้าน: ["store", "siteText", "promotions", "faq"],
+      ร้าน: ["store", "siteText", "promotions", "faq", "tour"],
       เมนู: Object.keys(menuSingletons),
       รีวิว: ["reviews"],
     },
   },
-  singletons: { store, siteText, promotions, faq, reviews, ...menuSingletons },
+  singletons: { store, siteText, promotions, faq, tour, reviews, ...menuSingletons },
 });

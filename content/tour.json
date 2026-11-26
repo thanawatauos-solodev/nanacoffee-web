@@ -1,0 +1,41 @@
+{
+  "isSample": true,
+  "spots": [
+    {
+      "nameTh": {
+        "name": "เคาน์เตอร์กาแฟ",
+        "slug": "coffee-counter"
+      },
+      "nameEn": "Coffee Counter",
+      "description": {
+        "th": "จุดสั่งกาแฟและของหวาน ชงสดทุกแก้ว",
+        "en": "Order coffee and desserts here, every cup made fresh"
+      },
+      "image": "/tour/spots/coffee-counter/image.jpg"
+    },
+    {
+      "nameTh": {
+        "name": "โซนทั่วไป",
+        "slug": "main-dining-area"
+      },
+      "nameEn": "Main Dining Area",
+      "description": {
+        "th": "โปร่ง นั่งสบาย เหมาะกับมากันเป็นครอบครัวหรือกลุ่มเพื่อน",
+        "en": "Open and relaxed, great for families and groups of friends"
+      },
+      "image": "/tour/spots/main-dining-area/image.jpg"
+    },
+    {
+      "nameTh": {
+        "name": "ห้องแอร์",
+        "slug": "air-conditioned-room"
+      },
+      "nameEn": "Air-Conditioned Room",
+      "description": {
+        "th": "เย็นสบาย เงียบ เหมาะกับนั่งทำงานหรืออ่านหนังสือนานๆ",
+        "en": "Cool and quiet, perfect for working or reading for hours"
+      },
+      "image": "/tour/spots/air-conditioned-room/image.jpg"
+    }
+  ]
+}

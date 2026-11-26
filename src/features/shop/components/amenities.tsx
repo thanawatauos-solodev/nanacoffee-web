@@ -1,10 +1,13 @@
-import { Armchair, CarFront, ShoppingBag, Snowflake, type LucideIcon } from "lucide-react";
+import { Armchair, ArrowRight, CarFront, Rotate3d, ShoppingBag, Snowflake, type LucideIcon } from "lucide-react";
+import Link from "next/link";
 import { LeafSprig } from "@/components/brand/decor";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
+import { tourIsLive } from "@/features/tour/data/tour";
 import type { Dictionary } from "@/i18n/dictionaries/th";
 import { rich } from "@/i18n/format";
-import { getDictionary } from "@/i18n/server";
+import { localizePath } from "@/i18n/paths";
+import { getDictionary, getLocale } from "@/i18n/server";
 
 const amenities: ReadonlyArray<{ key: keyof Dictionary["amenities"]["items"]; icon: LucideIcon; tone: string }> = [
   { key: "airConditioned", icon: Snowflake, tone: "bg-sage-soft text-leaf-deep" },
@@ -14,7 +17,7 @@ const amenities: ReadonlyArray<{ key: keyof Dictionary["amenities"]["items"]; ic
 ];
 
 export async function Amenities() {
-  const t = await getDictionary();
+  const [locale, t] = await Promise.all([getLocale(), getDictionary()]);
   return (
     <section aria-labelledby="place-title" className="relative mx-auto max-w-6xl px-4 sm:px-6">
       <LeafSprig className="pointer-events-none absolute -top-8 right-4 hidden h-40 rotate-[24deg] text-sage/50 md:block" />
@@ -40,6 +43,23 @@ export async function Amenities() {
           );
         })}
       </div>
+      {tourIsLive ? (
+        <Reveal delay={0.32}>
+          <Link
+            href={localizePath(locale, "/tour")}
+            className="group mt-3 flex items-center gap-4 rounded-[26px] bg-espresso p-5 text-cream shadow-lift transition-transform duration-500 ease-soft hover:-translate-y-1 sm:mt-4"
+          >
+            <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-cream/10 text-honey transition-transform duration-500 ease-spring group-hover:rotate-12">
+              <Rotate3d size={22} />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block text-[17px] font-semibold text-foam">{t.tour.teaser.title}</span>
+              <span className="block text-[13px] text-cream/75">{t.tour.teaser.body}</span>
+            </span>
+            <ArrowRight size={20} className="shrink-0 transition-transform group-hover:translate-x-1" />
+          </Link>
+        </Reveal>
+      ) : null}
     </section>
   );
 }

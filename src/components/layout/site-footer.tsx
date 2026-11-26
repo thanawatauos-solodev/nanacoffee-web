@@ -6,7 +6,7 @@ import { localizePath } from "@/i18n/paths";
 import { getDictionary, getLocale } from "@/i18n/server";
 import { siteConfig, socialProfiles } from "@/lib/site-config";
 import { hoursText } from "@/lib/time";
-import { navItems, navLabel } from "./nav-items";
+import { navLabel, siteNavItems } from "./nav-items";
 
 export async function SiteFooter() {
   const [locale, t] = await Promise.all([getLocale(), getDictionary()]);
@@ -71,7 +71,7 @@ export async function SiteFooter() {
         <nav aria-label={t.footer.linksLabel} className="space-y-3 text-sm">
           <h2 className="font-display text-base font-semibold text-honey">{t.footer.explore}</h2>
           <ul className="space-y-2">
-            {navItems.map((item) => (
+            {siteNavItems.map((item) => (
               <li key={item.href}>
                 <Link href={localizePath(locale, item.href)} className="text-cream/80 hover:text-foam">
                   {navLabel(t, item)}

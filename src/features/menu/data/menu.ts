@@ -14,8 +14,9 @@ import type { CategoryId, MenuCategory, MenuItem, MenuTag, Variant } from "../ty
  */
 
 type StoredMenuItem = {
-  nameTh?: string;
-  nameEn?: { name?: string; slug?: string };
+  /** The Thai name plus the item's id (`slug`), which also names its image folder. */
+  nameTh?: { name?: string; slug?: string };
+  nameEn?: string;
   description?: StoredLocalized;
   price?:
     | { discriminant: "single"; value?: number }
@@ -44,7 +45,7 @@ function toPrice(price: StoredMenuItem["price"]): Pick<MenuItem, "price" | "vari
 }
 
 function toMenuItem(item: StoredMenuItem, categoryId: CategoryId, index: number): MenuItem | null {
-  const name = localized({ th: item.nameTh, en: item.nameEn?.name });
+  const name = localized({ th: item.nameTh?.name, en: item.nameEn });
   const price = toPrice(item.price);
   if (!name.th || !price) {
     // Skip instead of failing the build, so one half-finished dish doesn't hold back other edits.
@@ -57,7 +58,7 @@ function toMenuItem(item: StoredMenuItem, categoryId: CategoryId, index: number)
     .map((alias) => alias.trim())
     .filter(Boolean);
   return {
-    id: `${categoryId}-${item.nameEn?.slug || index}`,
+    id: `${categoryId}-${item.nameTh?.slug || index}`,
     categoryId,
     name,
     description: localized(item.description),

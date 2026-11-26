@@ -9,11 +9,11 @@
   },
   "items": [
     {
-      "nameTh": "ชาไทย",
-      "nameEn": {
-        "name": "Thai Milk Tea",
+      "nameTh": {
+        "name": "ชาไทย",
         "slug": "thai-tea"
       },
+      "nameEn": "Thai Milk Tea",
       "description": {
         "th": "ชาไทยชงเข้ม หอมมัน นมสดและนมข้น",
         "en": "Strong-brewed Thai tea, creamy with fresh and condensed milk"
@@ -32,11 +32,11 @@
       "emoji": "🧋"
     },
     {
-      "nameTh": "มัทฉะลาเต้",
-      "nameEn": {
-        "name": "Matcha Latte",
+      "nameTh": {
+        "name": "มัทฉะลาเต้",
         "slug": "matcha-latte"
       },
+      "nameEn": "Matcha Latte",
       "description": {
         "th": "มัทฉะเกรดพรีเมียม นมสดนุ่ม หอมชาเขียวแท้",
         "en": "Premium matcha with smooth fresh milk"
@@ -54,11 +54,11 @@
       "emoji": "🍵"
     },
     {
-      "nameTh": "ชามะนาว",
-      "nameEn": {
-        "name": "Iced Lemon Tea",
+      "nameTh": {
+        "name": "ชามะนาว",
         "slug": "lemon-tea"
       },
+      "nameEn": "Iced Lemon Tea",
       "description": {
         "th": "ชาไทยเปรี้ยวหวาน มะนาวสดคั้นใหม่",
         "en": "Sweet-and-sour Thai tea with freshly squeezed lime"
@@ -75,11 +75,11 @@
       "emoji": "🍋"
     },
     {
-      "nameTh": "โกโก้เข้มข้น",
-      "nameEn": {
-        "name": "Rich Cocoa",
+      "nameTh": {
+        "name": "โกโก้เข้มข้น",
         "slug": "cocoa"
       },
+      "nameEn": "Rich Cocoa",
       "description": {
         "th": "โกโก้แท้เข้มข้น นมสด หวานมันกำลังดี",
         "en": "Rich real cocoa with fresh milk, perfectly balanced"
@@ -97,11 +97,11 @@
       "emoji": "🍫"
     },
     {
-      "nameTh": "นมชมพู",
-      "nameEn": {
-        "name": "Pink Milk",
+      "nameTh": {
+        "name": "นมชมพู",
         "slug": "pink-milk"
       },
+      "nameEn": "Pink Milk",
       "description": {
         "th": "นมสดเย็นๆ กับน้ำแดงหอมหวาน",
         "en": "Cold fresh milk with sweet, fragrant red syrup"
@@ -118,11 +118,11 @@
       "emoji": "🥛"
     },
     {
-      "nameTh": "อิตาเลียนโซดาบลูฮาวาย",
-      "nameEn": {
-        "name": "Blue Hawaii Italian Soda",
+      "nameTh": {
+        "name": "อิตาเลียนโซดาบลูฮาวาย",
         "slug": "italian-soda"
       },
+      "nameEn": "Blue Hawaii Italian Soda",
       "description": {
         "th": "โซดาซ่าๆ ไซรัปบลูฮาวาย สีสวยดื่มสดชื่น",
         "en": "Sparkling soda with Blue Hawaii syrup, bright and refreshing"

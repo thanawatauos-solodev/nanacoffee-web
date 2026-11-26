@@ -9,11 +9,11 @@
   },
   "items": [
     {
-      "nameTh": "สเต๊กหมูพริกไทยดำ",
-      "nameEn": {
-        "name": "Black Pepper Pork Steak",
+      "nameTh": {
+        "name": "สเต๊กหมูพริกไทยดำ",
         "slug": "pork-steak"
       },
+      "nameEn": "Black Pepper Pork Steak",
       "description": {
         "th": "สันคอหมูย่าง ซอสพริกไทยดำ มันบด สลัดผัก และขนมปังกระเทียม",
         "en": "Grilled pork neck with black pepper sauce, mashed potato, salad and garlic bread"
@@ -30,11 +30,11 @@
       "aliases": "สเต๊กหมู"
     },
     {
-      "nameTh": "สเต๊กเนื้อซอสเกรวี่",
-      "nameEn": {
-        "name": "Beef Steak with Gravy",
+      "nameTh": {
+        "name": "สเต๊กเนื้อซอสเกรวี่",
         "slug": "beef-steak"
       },
+      "nameEn": "Beef Steak with Gravy",
       "description": {
         "th": "เนื้อย่างตามระดับที่ชอบ ซอสเกรวี่เข้มข้น เฟรนช์ฟรายส์ และผักย่าง",
         "en": "Beef grilled to your liking with rich gravy, French fries and grilled vegetables"
@@ -48,11 +48,11 @@
       "emoji": "🥩"
     },
     {
-      "nameTh": "สเต๊กไก่ซอสเห็ด",
-      "nameEn": {
-        "name": "Chicken Steak, Mushroom Sauce",
+      "nameTh": {
+        "name": "สเต๊กไก่ซอสเห็ด",
         "slug": "chicken-steak"
       },
+      "nameEn": "Chicken Steak, Mushroom Sauce",
       "description": {
         "th": "สะโพกไก่ย่างหนังกรอบ ซอสครีมเห็ด มันบด และสลัด",
         "en": "Crispy-skinned grilled chicken thigh with creamy mushroom sauce, mashed potato and salad"
@@ -66,11 +66,11 @@
       "emoji": "🍗"
     },
     {
-      "nameTh": "ข้าวผัดอเมริกัน",
-      "nameEn": {
-        "name": "American Fried Rice",
+      "nameTh": {
+        "name": "ข้าวผัดอเมริกัน",
         "slug": "american-fried-rice"
       },
+      "nameEn": "American Fried Rice",
       "description": {
         "th": "ข้าวผัดซอสมะเขือเทศ ไก่ทอด ไส้กรอก แฮม และไข่ดาว",
         "en": "Tomato-ketchup fried rice with fried chicken, sausage, ham and a fried egg"
@@ -86,11 +86,11 @@
       "emoji": "🍛"
     },
     {
-      "nameTh": "สปาเกตตีคาโบนารา",
-      "nameEn": {
-        "name": "Spaghetti Carbonara",
+      "nameTh": {
+        "name": "สปาเกตตีคาโบนารา",
         "slug": "carbonara"
       },
+      "nameEn": "Spaghetti Carbonara",
       "description": {
         "th": "ซอสครีมไข่แดง เบคอนกรอบ ชีสพาร์เมซาน พริกไทยดำ",
         "en": "Creamy egg-yolk sauce, crispy bacon, Parmesan and black pepper"
@@ -104,11 +104,11 @@
       "emoji": "🍝"
     },
     {
-      "nameTh": "สปาเกตตีขี้เมาทะเล",
-      "nameEn": {
-        "name": "Spicy Seafood Spaghetti",
+      "nameTh": {
+        "name": "สปาเกตตีขี้เมาทะเล",
         "slug": "spaghetti-kee-mao"
       },
+      "nameEn": "Spicy Seafood Spaghetti",
       "description": {
         "th": "ผัดพริกสดกระเทียม กุ้ง หมึก หอยแมลงภู่ หอมใบกะเพรา",
         "en": "Spaghetti stir-fried with chilli, garlic, shrimp, squid, mussels and holy basil"
@@ -122,11 +122,11 @@
       "emoji": "🦐"
     },
     {
-      "nameTh": "คลับแซนด์วิช",
-      "nameEn": {
-        "name": "Club Sandwich",
+      "nameTh": {
+        "name": "คลับแซนด์วิช",
         "slug": "club-sandwich"
       },
+      "nameEn": "Club Sandwich",
       "description": {
         "th": "ขนมปังปิ้ง แฮม ไก่ ไข่ ชีส ผักสด เสิร์ฟพร้อมเฟรนช์ฟรายส์",
         "en": "Toasted bread layered with ham, chicken, egg, cheese and fresh salad, served with fries"
@@ -140,11 +140,11 @@
       "emoji": "🥪"
     },
     {
-      "nameTh": "เฟรนช์ฟรายส์",
-      "nameEn": {
-        "name": "French Fries",
+      "nameTh": {
+        "name": "เฟรนช์ฟรายส์",
         "slug": "french-fries"
       },
+      "nameEn": "French Fries",
       "description": {
         "th": "มันฝรั่งทอดกรอบนอกนุ่มใน จิ้มซอสมะเขือเทศหรือมายองเนส",
         "en": "Crispy outside, fluffy inside, with ketchup or mayonnaise"

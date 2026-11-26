@@ -9,11 +9,11 @@
   },
   "items": [
     {
-      "nameTh": "เอสเย็น",
-      "nameEn": {
-        "name": "Thai Iced Espresso",
+      "nameTh": {
+        "name": "เอสเย็น",
         "slug": "es-yen"
       },
+      "nameEn": "Thai Iced Espresso",
       "description": {
         "th": "เอสเปรสโซช็อตเข้ม นมข้นหวาน นมสด สูตรเอสเย็นแบบไทยแท้",
         "en": "A strong espresso shot with sweetened condensed milk and fresh milk, Thai-style"
@@ -32,11 +32,11 @@
       "emoji": "🧋"
     },
     {
-      "nameTh": "เอสเปรสโซ",
-      "nameEn": {
-        "name": "Espresso",
+      "nameTh": {
+        "name": "เอสเปรสโซ",
         "slug": "espresso"
       },
+      "nameEn": "Espresso",
       "description": {
         "th": "ช็อตเข้มข้น บอดี้หนัก กลิ่นช็อกโกแลตและคาราเมล",
         "en": "A rich, full-bodied shot with notes of chocolate and caramel"
@@ -53,11 +53,11 @@
       "emoji": "☕"
     },
     {
-      "nameTh": "อเมริกาโน่",
-      "nameEn": {
-        "name": "Americano",
+      "nameTh": {
+        "name": "อเมริกาโน่",
         "slug": "americano"
       },
+      "nameEn": "Americano",
       "description": {
         "th": "กาแฟดำนุ่ม หอมสะอาด ไม่มีน้ำตาล",
         "en": "Smooth, clean black coffee with no sugar"
@@ -74,11 +74,11 @@
       "emoji": "☕"
     },
     {
-      "nameTh": "ลาเต้",
-      "nameEn": {
-        "name": "Caffè Latte",
+      "nameTh": {
+        "name": "ลาเต้",
         "slug": "latte"
       },
+      "nameEn": "Caffè Latte",
       "description": {
         "th": "เอสเปรสโซกับนมสดนุ่มละมุน ฟองนมเนียน",
         "en": "Espresso with silky steamed milk and fine foam"
@@ -98,11 +98,11 @@
       "emoji": "☕"
     },
     {
-      "nameTh": "คาปูชิโน่",
-      "nameEn": {
-        "name": "Cappuccino",
+      "nameTh": {
+        "name": "คาปูชิโน่",
         "slug": "cappuccino"
       },
+      "nameEn": "Cappuccino",
       "description": {
         "th": "ฟองนมหนานุ่ม โรยผงโกโก้ หอมกรุ่น",
         "en": "Thick, velvety milk foam dusted with cocoa"
@@ -120,11 +120,11 @@
       "emoji": "☕"
     },
     {
-      "nameTh": "มอคค่า",
-      "nameEn": {
-        "name": "Mocha",
+      "nameTh": {
+        "name": "มอคค่า",
         "slug": "mocha"
       },
+      "nameEn": "Mocha",
       "description": {
         "th": "กาแฟผสานช็อกโกแลตเข้มข้น หวานกำลังดี",
         "en": "Coffee blended with rich chocolate, just sweet enough"
@@ -142,11 +142,11 @@
       "emoji": "☕"
     },
     {
-      "nameTh": "คาราเมลมัคคิอาโต้",
-      "nameEn": {
-        "name": "Caramel Macchiato",
+      "nameTh": {
+        "name": "คาราเมลมัคคิอาโต้",
         "slug": "caramel-macchiato"
       },
+      "nameEn": "Caramel Macchiato",
       "description": {
         "th": "นมสด วานิลลา เอสเปรสโซ ราดซอสคาราเมล",
         "en": "Fresh milk, vanilla and espresso finished with caramel sauce"
@@ -164,11 +164,11 @@
       "emoji": "🍮"
     },
     {
-      "nameTh": "อเมริกาโน่น้ำผึ้งมะนาว",
-      "nameEn": {
-        "name": "Honey Lemon Americano",
+      "nameTh": {
+        "name": "อเมริกาโน่น้ำผึ้งมะนาว",
         "slug": "honey-lemon-americano"
       },
+      "nameEn": "Honey Lemon Americano",
       "description": {
         "th": "กาแฟดำเย็น น้ำผึ้งแท้ มะนาวสด สดชื่นสุดๆ",
         "en": "Iced black coffee with real honey and fresh lime, wonderfully refreshing"
