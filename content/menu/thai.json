@@ -20,13 +20,13 @@
       },
       "price": {
         "discriminant": "single",
-        "value": 120
+        "value": 100
       },
       "tags": [
         "signature"
       ],
       "spicy": "2",
-      "emoji": "🐟"
+      "image": "/menu/thai/items/yum-pla-duk-fu/image.jpeg"
     },
     {
       "nameTh": "แกงเลียงกุ้งสด",
