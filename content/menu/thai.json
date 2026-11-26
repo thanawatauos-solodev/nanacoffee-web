@@ -157,6 +157,21 @@
       "tags": [],
       "spicy": "0",
       "emoji": "🥢"
+    },
+    {
+      "nameTh": {
+        "name": "ลาบหมูทอด",
+        "slug": "menu-6g9di1"
+      },
+      "description": {},
+      "price": {
+        "discriminant": "single",
+        "value": 150
+      },
+      "tags": [],
+      "spicy": "0",
+      "image": "/menu/thai/items/menu-6g9di1/image.jpg",
+      "emoji": "🍽️"
     }
   ]
 }
