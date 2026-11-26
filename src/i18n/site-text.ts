@@ -24,6 +24,7 @@ type StoredSiteText = {
   };
   menu?: { intro?: L; takeaway?: TitleBody };
   reviews?: { sectionTitle?: L; sectionDescription?: L; pageIntro?: L; thanks?: TitleBody };
+  tour?: { intro?: L };
   footer?: { blurb?: L };
 };
 
@@ -62,6 +63,7 @@ export function siteText(locale: Locale) {
       pageIntro: pick(text.reviews?.pageIntro),
       thanks: titleBody(text.reviews?.thanks),
     },
+    tour: { intro: pick(text.tour?.intro) },
     footer: { blurb: pick(text.footer?.blurb) },
   };
 }

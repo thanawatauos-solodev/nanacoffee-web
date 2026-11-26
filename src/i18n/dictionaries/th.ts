@@ -34,6 +34,8 @@ const th = {
     reviews: "รีวิว",
     contact: "ติดต่อเรา",
     contactShort: "ติดต่อ",
+    tour: "ชมร้าน 360°",
+    tourShort: "ทัวร์ 360°",
     mainLabel: "เมนูหลัก",
     homeAria: "{name} หน้าแรก",
     callAria: "โทรหาร้าน {phone}",
@@ -186,6 +188,38 @@ const th = {
     intro: "สอบถาม สั่งอาหารกลับบ้าน หรือแวะมานั่งชิลล์ · {hours}",
     metaDescription:
       "ติดต่อ NaNa Coffee นานาคอฟฟี่ สาขาสว่างแดนดิน โทร {phone} {hours} ที่อยู่ {address} มีห้องแอร์และที่จอดรถ",
+  },
+  tour: {
+    eyebrow: "Virtual Tour",
+    title: "ชมร้านแบบ 360°",
+    intro: text.tour.intro,
+    metaDescription:
+      "ทัวร์ 360° ภายในร้าน NaNa Coffee นานาคอฟฟี่ สาขาสว่างแดนดิน ดูบรรยากาศเคาน์เตอร์กาแฟ โซนทั่วไป และห้องแอร์ก่อนแวะมา",
+    sampleNotice: "ภาพในหน้านี้เป็นภาพตัวอย่างจากร้านอื่น ยังไม่ใช่ร้าน NaNa Coffee จริง",
+    hint: "ลากเพื่อหมุนดูรอบตัว",
+    viewerLabel: "ภาพ 360° ของ{name}",
+    spotsLabel: "เลือกจุดในร้าน",
+    spotOf: "จุดที่ {index} จาก {total}",
+    previous: "จุดก่อนหน้า",
+    next: "จุดถัดไป",
+    teaser: {
+      title: "ชมร้านแบบ 360°",
+      body: "ลองเดินดูบรรยากาศในร้านก่อนแวะมา",
+    },
+    /** Labels inside the 360° viewer (its toolbar, loader and errors). */
+    viewer: {
+      loading: "กำลังโหลดภาพ 360°…",
+      loadError: "โหลดภาพ 360° ไม่สำเร็จ",
+      webglError: "เบราว์เซอร์นี้แสดงภาพ 360° ไม่ได้",
+      zoom: "ซูม",
+      zoomIn: "ซูมเข้า",
+      zoomOut: "ซูมออก",
+      fullscreen: "เต็มจอ",
+      autorotate: "หมุนอัตโนมัติ",
+      gyroscope: "หมุนตามมือถือ",
+      ctrlZoom: "กด Ctrl ค้างแล้วเลื่อนเพื่อซูม",
+      twoFingers: "ใช้สองนิ้วเพื่อเลื่อนดู",
+    },
   },
   notFound: {
     eyebrow: "Oops!",

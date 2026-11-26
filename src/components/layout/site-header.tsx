@@ -13,7 +13,7 @@ import { localizePath, splitLocale } from "@/i18n/paths";
 import { cn } from "@/lib/cn";
 import { siteConfig } from "@/lib/site-config";
 import { LanguageSwitcher } from "./language-switcher";
-import { isActivePath, navItems, navLabel } from "./nav-items";
+import { isActivePath, navLabel, siteNavItems } from "./nav-items";
 
 export function SiteHeader() {
   const { locale, t } = useI18n();
@@ -40,7 +40,7 @@ export function SiteHeader() {
         </Link>
 
         <nav aria-label={t.nav.mainLabel} className="hidden items-center gap-1 rounded-full bg-foam/75 p-1 ring-1 ring-roast/8 md:flex">
-          {navItems.map((item) => {
+          {siteNavItems.map((item) => {
             const active = isActivePath(path, item.href);
             return (
               <Link
@@ -48,7 +48,7 @@ export function SiteHeader() {
                 href={localizePath(locale, item.href)}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "relative whitespace-nowrap rounded-full px-4 py-2 text-[15px] font-medium transition-colors lg:px-5",
+                  "relative whitespace-nowrap rounded-full px-3 py-2 text-[15px] font-medium transition-colors lg:px-5",
                   active ? "text-cream" : "text-roast hover:text-espresso",
                 )}
               >

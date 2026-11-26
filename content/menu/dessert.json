@@ -9,11 +9,11 @@
   },
   "items": [
     {
-      "nameTh": "เค้กไอศกรีมช็อกโกแลต",
-      "nameEn": {
-        "name": "Chocolate Ice Cream Cake",
+      "nameTh": {
+        "name": "เค้กไอศกรีมช็อกโกแลต",
         "slug": "ice-cream-cake-chocolate"
       },
+      "nameEn": "Chocolate Ice Cream Cake",
       "description": {
         "th": "ไอศกรีมช็อกโกแลตเข้มข้นบนเค้กนุ่ม ราดกานาช (ต่อชิ้น)",
         "en": "Rich chocolate ice cream on soft sponge cake with ganache (per slice)"
@@ -29,11 +29,11 @@
       "emoji": "🍰"
     },
     {
-      "nameTh": "เค้กไอศกรีมสตรอว์เบอร์รี",
-      "nameEn": {
-        "name": "Strawberry Ice Cream Cake",
+      "nameTh": {
+        "name": "เค้กไอศกรีมสตรอว์เบอร์รี",
         "slug": "ice-cream-cake-strawberry"
       },
+      "nameEn": "Strawberry Ice Cream Cake",
       "description": {
         "th": "ไอศกรีมสตรอว์เบอร์รีหอมหวาน เนื้อเค้กวานิลลา (ต่อชิ้น)",
         "en": "Sweet strawberry ice cream on vanilla sponge (per slice)"
@@ -47,11 +47,11 @@
       "emoji": "🍓"
     },
     {
-      "nameTh": "ฮันนี่โทสต์",
-      "nameEn": {
-        "name": "Honey Toast",
+      "nameTh": {
+        "name": "ฮันนี่โทสต์",
         "slug": "honey-toast"
       },
+      "nameEn": "Honey Toast",
       "description": {
         "th": "ขนมปังเนยอบกรอบ ราดน้ำผึ้ง วิปครีม และไอศกรีมวานิลลา",
         "en": "Buttery toasted bread with honey, whipped cream and vanilla ice cream"
@@ -65,11 +65,11 @@
       "emoji": "🍞"
     },
     {
-      "nameTh": "บราวนี่อุ่นๆ ไอศกรีม",
-      "nameEn": {
-        "name": "Warm Brownie à la Mode",
+      "nameTh": {
+        "name": "บราวนี่อุ่นๆ ไอศกรีม",
         "slug": "brownie-ice-cream"
       },
+      "nameEn": "Warm Brownie à la Mode",
       "description": {
         "th": "บราวนี่หนึบอุ่นๆ เสิร์ฟคู่ไอศกรีมวานิลลา",
         "en": "A warm, fudgy brownie served with vanilla ice cream"
@@ -83,11 +83,11 @@
       "emoji": "🍨"
     },
     {
-      "nameTh": "บิงซูชาไทย",
-      "nameEn": {
-        "name": "Thai Tea Bingsu",
+      "nameTh": {
+        "name": "บิงซูชาไทย",
         "slug": "thai-tea-bingsu"
       },
+      "nameEn": "Thai Tea Bingsu",
       "description": {
         "th": "น้ำแข็งไสนมเนื้อนุ่ม ราดชาไทย ท็อปปิ้งขนมปังกรอบ",
         "en": "Fluffy shaved milk ice drizzled with Thai tea and topped with crunchy toast"
@@ -103,11 +103,11 @@
       "emoji": "🍧"
     },
     {
-      "nameTh": "วาฟเฟิลไอศกรีม",
-      "nameEn": {
-        "name": "Waffle & Ice Cream",
+      "nameTh": {
+        "name": "วาฟเฟิลไอศกรีม",
         "slug": "waffle-ice-cream"
       },
+      "nameEn": "Waffle & Ice Cream",
       "description": {
         "th": "วาฟเฟิลกรอบนอกนุ่มใน ไอศกรีม 2 สกู๊ป ซอสช็อกโกแลต",
         "en": "Crisp-yet-fluffy waffle with two scoops of ice cream and chocolate sauce"

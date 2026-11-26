@@ -9,11 +9,11 @@
   },
   "items": [
     {
-      "nameTh": "แหนมเนือง",
-      "nameEn": {
-        "name": "Nem Nuong Platter",
+      "nameTh": {
+        "name": "แหนมเนือง",
         "slug": "naem-nueang"
       },
+      "nameEn": "Nem Nuong Platter",
       "description": {
         "th": "แหนมย่างหอมกรุ่น แผ่นแป้งเวียดนาม ผักสดและน้ำจิ้มสูตรเฉพาะร้าน",
         "en": "Grilled Vietnamese pork sausage with rice paper, fresh herbs and our signature dipping sauce"
@@ -29,11 +29,11 @@
       "emoji": "🌯"
     },
     {
-      "nameTh": "ข้าวเปียกเส้นหมู",
-      "nameEn": {
-        "name": "Khao Piak Sen",
+      "nameTh": {
+        "name": "ข้าวเปียกเส้นหมู",
         "slug": "khao-piak-sen"
       },
+      "nameEn": "Khao Piak Sen",
       "description": {
         "th": "เส้นเหนียวนุ่ม น้ำซุปกระดูกหมูเคี่ยวนาน ใส่หมูยอ โรยกระเทียมเจียว",
         "en": "Soft, chewy noodles in a slow-simmered pork bone broth with Vietnamese pork roll and fried garlic"
@@ -47,11 +47,11 @@
       "emoji": "🍜"
     },
     {
-      "nameTh": "ไข่กระทะ",
-      "nameEn": {
-        "name": "Vietnamese Pan Eggs",
+      "nameTh": {
+        "name": "ไข่กระทะ",
         "slug": "kai-kratha"
       },
+      "nameEn": "Vietnamese Pan Eggs",
       "description": {
         "th": "ไข่ดาวในกระทะร้อน หมูยอ กุนเชียง หมูสับ เสิร์ฟพร้อมขนมปังอุ่นๆ",
         "en": "Eggs sizzled in a hot pan with pork roll, Chinese sausage and minced pork, served with warm bread"
@@ -67,11 +67,11 @@
       "emoji": "🥘"
     },
     {
-      "nameTh": "เฝอเนื้อ",
-      "nameEn": {
-        "name": "Beef Pho",
+      "nameTh": {
+        "name": "เฝอเนื้อ",
         "slug": "pho-nuea"
       },
+      "nameEn": "Beef Pho",
       "description": {
         "th": "น้ำซุปเนื้อใส หอมเครื่องเทศ เส้นเฝอนุ่ม เนื้อสไลซ์ ใบโหระพา",
         "en": "Clear, aromatic beef broth with soft pho noodles, sliced beef and Thai basil"
@@ -85,11 +85,11 @@
       "emoji": "🥣"
     },
     {
-      "nameTh": "บั๋นหมี่",
-      "nameEn": {
-        "name": "Banh Mi",
+      "nameTh": {
+        "name": "บั๋นหมี่",
         "slug": "banh-mi"
       },
+      "nameEn": "Banh Mi",
       "description": {
         "th": "ขนมปังเวียดนามกรอบนอกนุ่มใน ไส้หมูยอ หมูหยอง ผักดอง ผักชี",
         "en": "Crusty Vietnamese baguette with pork roll, pork floss, pickles and coriander"
@@ -103,11 +103,11 @@
       "emoji": "🥖"
     },
     {
-      "nameTh": "ปอเปี๊ยะทอดเวียดนาม",
-      "nameEn": {
-        "name": "Fried Spring Rolls",
+      "nameTh": {
+        "name": "ปอเปี๊ยะทอดเวียดนาม",
         "slug": "popia-tod"
       },
+      "nameEn": "Fried Spring Rolls",
       "description": {
         "th": "แป้งข้าวทอดกรอบ ไส้หมูวุ้นเส้นเห็ดหูหนู จิ้มน้ำจิ้มเปรี้ยวหวาน",
         "en": "Crispy rice-paper rolls filled with pork, glass noodles and wood-ear mushroom, with sweet chilli dip"
