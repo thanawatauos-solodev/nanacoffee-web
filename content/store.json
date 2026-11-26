@@ -1,5 +1,5 @@
 {
-  "phone": "042722394",
+  "phone": "042722394  ",
   "hours": {
     "open": "10:00",
     "close": "21:00"
@@ -17,5 +17,10 @@
     },
     "postalCode": "47110"
   },
-  "social": {}
+  "social": {
+    "facebook": "https://nanacoffee-web-sawangdaendin.vercel.app/",
+    "instagram": "https://nanacoffee-web-sawangdaendin.vercel.app/",
+    "tiktok": "https://nanacoffee-web-sawangdaendin.vercel.app/"
+  },
+  "googleReviewUrl": "https://nanacoffee-web-sawangdaendin.vercel.app/"
 }
