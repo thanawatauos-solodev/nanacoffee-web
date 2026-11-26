@@ -1,7 +1,7 @@
 {
   "name": {
-    "th": "อาหารเวียดนาม",
-    "en": "Vietnamese"
+    "th": "อาหารจานด่วน",
+    "en": "single-dish meal"
   },
   "blurb": {
     "th": "ของดีสกลนคร สดชื่น เบา สบายท้อง",
@@ -10,8 +10,8 @@
   "items": [
     {
       "nameTh": {
-        "name": "แหนมเนือง",
-        "slug": "naem-nueang"
+        "name": "ผัดกะเพรา",
+        "slug": "menu-u9xfwc"
       },
       "nameEn": "Nem Nuong Platter",
       "description": {
@@ -20,12 +20,13 @@
       },
       "price": {
         "discriminant": "single",
-        "value": 159
+        "value": 60
       },
       "tags": [
         "signature"
       ],
       "spicy": "0",
+      "image": "/menu/vietnamese/items/menu-u9xfwc/image.jpg",
       "emoji": "🌯"
     },
     {
