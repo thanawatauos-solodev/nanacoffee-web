@@ -46,6 +46,7 @@
         "signature"
       ],
       "spicy": "1",
+      "image": "/menu/thai/items/kaeng-liang-kung/image.jfif",
       "emoji": "🍲"
     },
     {
@@ -66,45 +67,48 @@
         "bestseller"
       ],
       "spicy": "2",
+      "image": "/menu/thai/items/tom-yum-kung/image.jfif",
       "emoji": "🍤"
     },
     {
       "nameTh": {
-        "name": "ผัดกะเพราหมูกรอบ + ไข่ดาว",
-        "slug": "kaprao-moo-krob"
+        "name": "ปลาคังผัดฉ่า",
+        "slug": "menu-vocand"
       },
-      "nameEn": "Holy Basil Crispy Pork",
+      "nameEn": "Spicy stir-fry with Thai herbs",
       "description": {
-        "th": "หมูกรอบผัดใบกะเพราไฟแรง เสิร์ฟพร้อมข้าวสวยและไข่ดาวกรอบ",
-        "en": "Crispy pork wok-fried with holy basil, served with jasmine rice and a crispy fried egg"
+        "th": "กุ้ง ปลาหมึก และหอยแมลงภู่สดใหม่ ผัดไฟแรงกับเครื่องแกงรสจัดจ้าน หอมกลิ่นกระชายซอย พริกไทยอ่อน ใบมะกรูด และใบโหระพา",
+        "en": "Fresh shrimp, squid, and mussels wok-tossed over high heat with fiery chili-garlic paste, sliced fingerroot, young green peppercorns, kaffir lime leaves, and sweet basil."
       },
       "price": {
         "discriminant": "single",
-        "value": 75
+        "value": 150
       },
       "tags": [
         "bestseller"
       ],
       "spicy": "2",
-      "emoji": "🍳"
+      "image": "/menu/thai/items/menu-vocand/image.jfif"
     },
     {
       "nameTh": {
-        "name": "ข้าวผัดปู",
-        "slug": "khao-pad-poo"
+        "name": "ปลากะพงนึ่งมะนาว",
+        "slug": "menu-124jn2w"
       },
-      "nameEn": "Crab Fried Rice",
+      "nameEn": "Steamed Sea Bass with Chili and Lime",
       "description": {
-        "th": "ข้าวผัดไฟแรง เนื้อปูแน่นๆ ไข่หอม เสิร์ฟพร้อมมะนาวและแตงกวา",
-        "en": "Wok-fried rice with generous crab meat and egg, served with lime and cucumber"
+        "th": "•  ปลากะพงสดเนื้อแน่นนึ่งจนสุกกำลังดี ราดด้วยน้ำยำรสแซ่บจัดจ้านจากน้ำมะนาวสด พริกขี้หนู และกระเทียมสับ รสเปรี้ยวจี๊ดจ๊าดเผ็ดกำลังดี",
+        "en": "• Fresh, tender sea bass steamed to perfection and topped with a zesty, spicy dressing made from fresh lime juice, Thai bird's eye chilies, and minced garlic.\n"
       },
       "price": {
         "discriminant": "single",
-        "value": 70
+        "value": 390
       },
-      "tags": [],
-      "spicy": "0",
-      "emoji": "🦀"
+      "tags": [
+        "bestseller"
+      ],
+      "spicy": "1",
+      "image": "/menu/thai/items/menu-124jn2w/image.jfif"
     },
     {
       "nameTh": {
@@ -147,21 +151,23 @@
     },
     {
       "nameTh": {
-        "name": "ผัดไทยกุ้งสด",
+        "name": "ปูนิ่มผัดผงกะหรี่",
         "slug": "pad-thai-kung"
       },
-      "nameEn": "Pad Thai with Shrimp",
+      "nameEn": "Stir-fried Soft-Shell Crab in Curry Powder",
       "description": {
-        "th": "เส้นจันท์เหนียวนุ่ม ซอสมะขามเคี่ยวเอง กุ้งสด ถั่วงอก กุยช่าย",
-        "en": "Chewy rice noodles in house-made tamarind sauce with fresh shrimp, bean sprouts and chives"
+        "th": "• ปูนิ่มทอดกรอบนอกนุ่มใน ทานได้ทั้งตัว นำมาผัดคลุกเคล้ากับซอสผงกะหรี่ ไข่ไก่ และนมสด รสชาติกลมกล่อม หอมกลิ่นเครื่องเทศและขึ้นฉ่าย",
+        "en": "• Crispy, whole edible soft-shell crab stir-fried in a rich, savory yellow curry sauce blended with egg, milk, onions, and fresh celery.\n"
       },
       "price": {
         "discriminant": "single",
-        "value": 89
+        "value": 220
       },
-      "tags": [],
+      "tags": [
+        "bestseller"
+      ],
       "spicy": "0",
-      "emoji": "🥢"
+      "image": "/menu/thai/items/pad-thai-kung/image.jfif"
     },
     {
       "nameTh": {
