@@ -21,8 +21,8 @@
       "price": {
         "discriminant": "variants",
         "value": {
-          "iced": 60,
-          "frappe": 70
+          "hot": 30,
+          "iced": 45
         }
       },
       "tags": [
