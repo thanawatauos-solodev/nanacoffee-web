@@ -67,7 +67,7 @@
         "signature"
       ],
       "spicy": "2",
-      "image": "/menu/thai/items/tom-yum-kung/image.jfif",
+      "image": "/menu/thai/items/tom-yum-kung/image.jpg",
       "emoji": "🍤"
     },
     {
@@ -89,7 +89,7 @@
         "signature"
       ],
       "spicy": "2",
-      "image": "/menu/thai/items/menu-vocand/image.jfif"
+      "image": "/menu/thai/items/menu-vocand/image.jpg"
     },
     {
       "nameTh": {
@@ -110,7 +110,7 @@
         "signature"
       ],
       "spicy": "1",
-      "image": "/menu/thai/items/menu-124jn2w/image.jfif"
+      "image": "/menu/thai/items/menu-124jn2w/image.jpg"
     },
     {
       "nameTh": {
@@ -134,27 +134,6 @@
     },
     {
       "nameTh": {
-        "name": "ปลากะพงทอดน้ำปลา",
-        "slug": "menu-dtdmeu"
-      },
-      "nameEn": "Deep-fried sea bass with fish sauce",
-      "description": {
-        "th": "(ปลากระพงทอดกรอบทั้งตัว ราดซอสน้ำปลาเค็มอมหวาน เสิร์ฟพร้อมยำมะม่วงรสจัดจ้าน)",
-        "en": "Crispy deep-fried whole sea bass glazed with sweet and savory fish sauce, served with spicy green mango salad."
-      },
-      "price": {
-        "discriminant": "single",
-        "value": 390
-      },
-      "tags": [
-        "signature"
-      ],
-      "spicy": "0",
-      "image": "/menu/thai/items/menu-dtdmeu/image.jpg",
-      "emoji": "🧄"
-    },
-    {
-      "nameTh": {
         "name": "ปูนิ่มผัดผงกะหรี่",
         "slug": "pad-thai-kung"
       },
@@ -172,7 +151,7 @@
         "signature"
       ],
       "spicy": "0",
-      "image": "/menu/thai/items/pad-thai-kung/image.jfif"
+      "image": "/menu/thai/items/pad-thai-kung/image.jpg"
     },
     {
       "nameTh": {
