@@ -324,7 +324,7 @@ function menuCategory({ id, adminLabel }: (typeof categoryList)[number]) {
             }),
             image: fields.image({
               label: "รูปเมนู",
-              description: "แสดงเป็นวงกลม ใช้รูปสี่เหลี่ยมจัตุรัสที่จานอยู่กลางภาพ ขนาดไม่ต้องเกิน 800×800",
+              description: "แสดงเป็นวงกลม ใช้รูปสี่เหลี่ยมจัตุรัสที่จานอยู่กลางภาพ รูปใหญ่จากมือถือใช้ได้เลย เว็บจะย่อขนาดให้เอง",
               directory: `public/menu/${id}`,
               publicPath: `/menu/${id}/`,
             }),

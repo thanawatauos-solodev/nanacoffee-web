@@ -108,7 +108,7 @@ export function PromoCarousel() {
             <div aria-hidden className="pointer-events-none absolute right-0 bottom-0 top-0 flex w-[48%] items-center justify-center sm:relative sm:right-0 sm:w-[40%]">
               <span
                 className={cn(
-                  "absolute right-4 top-4 font-display text-[4.5rem] font-bold italic leading-none opacity-25 sm:static sm:text-[7.5rem] sm:opacity-100",
+                  "absolute right-4 top-4 font-display text-[4.5rem] font-semibold italic leading-none opacity-25 sm:static sm:text-[7.5rem] sm:opacity-100",
                   tone.highlight,
                 )}
               >
