@@ -16,15 +16,20 @@ import "../globals.css";
 
 // Thai-first type system: Anuphan for reading, Trirong for display, Charm for script accents.
 // All three include Latin glyphs, so the English pages use the same faces.
+// Only the body face is preloaded. Preloading every Trirong and Charm file put 22 fonts (~300 KB) ahead of
+// everything else on each page; now headings and accents briefly show a size-matched fallback on a first visit.
+// Keep the weights in step with the font-* classes used on display and script text: a missing one renders
+// in the nearest weight that is loaded.
 const anuphan = Anuphan({ subsets: ["thai", "latin"], variable: "--font-anuphan", display: "swap" });
 const trirong = Trirong({
   subsets: ["thai", "latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600"],
   style: ["normal", "italic"],
   variable: "--font-trirong",
   display: "swap",
+  preload: false,
 });
-const charm = Charm({ subsets: ["thai", "latin"], weight: ["400", "700"], variable: "--font-charm", display: "swap" });
+const charm = Charm({ subsets: ["thai", "latin"], weight: "400", variable: "--font-charm", display: "swap", preload: false });
 
 /** Prerender every page once per language. */
 export async function generateStaticParams() {
