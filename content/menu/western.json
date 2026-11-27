@@ -10,80 +10,86 @@
   "items": [
     {
       "nameTh": {
-        "name": "สเต๊กหมูพริกไทยดำ",
-        "slug": "pork-steak"
+        "name": "สเต็กเนื้อโพนยางคำ",
+        "slug": "menu-c7vx19"
       },
-      "nameEn": "Black Pepper Pork Steak",
+      "nameEn": "beef steak",
       "description": {
-        "th": "สันคอหมูย่าง ซอสพริกไทยดำ มันบด สลัดผัก และขนมปังกระเทียม",
-        "en": "Grilled pork neck with black pepper sauce, mashed potato, salad and garlic bread"
+        "th": "คือชิ้นเนื้อวัวที่หั่นเป็นแผ่นหนาและแบน โดยทั่วไปจะนำไปย่างหรือทอดในกระทะ ผู้คนมักปรุงรสด้วยเกลือและพริกไทยดำเพียงเล็กน้อยเพื่อชูรสชาติตามธรรมชาติของเนื้",
+        "en": "is a thick, flat piece of meat cut from a cow. It is usually grilled or fried in a pan. People often season it with just salt and black pepper to enjoy the natural flavor of the meat."
       },
       "price": {
         "discriminant": "single",
-        "value": 159
+        "value": 280
       },
       "tags": [
         "signature"
       ],
       "spicy": "0",
+      "image": "/menu/western/items/menu-c7vx19/image.jpg",
       "emoji": "🍖",
       "aliases": "สเต๊กหมู"
     },
     {
       "nameTh": {
-        "name": "สเต๊กเนื้อซอสเกรวี่",
+        "name": "สเต็กหมู",
         "slug": "beef-steak"
       },
-      "nameEn": "Beef Steak with Gravy",
+      "nameEn": "Pork Loin Steak",
       "description": {
-        "th": "เนื้อย่างตามระดับที่ชอบ ซอสเกรวี่เข้มข้น เฟรนช์ฟรายส์ และผักย่าง",
-        "en": "Beef grilled to your liking with rich gravy, French fries and grilled vegetables"
+        "th": "คือเนื้อหมูชิ้นหนาที่หั่นมาจากส่วนกลางหลังของหมู เป็นส่วนที่มีไขมันน้อย เนื้อนุ่ม และมีรสชาติกลมกล่อมกำลังดี โดยปกติจะมีชั้นไขมันบางๆ ติดอยู่ที่ขอบด้านหนึ่ง ซึ่งช่วยให้เนื้อยังคงความชุ่มฉ่ำเมื่อนำไปย่างหรือทอดในกระท",
+        "en": "is a thick slice of meat cut from the back of a pig. It is lean, tender, and has a mild, savory flavor. Usually, it has a thin layer of fat along one edge, which helps keep the meat juicy when it is grilled or pan-fried."
       },
       "price": {
         "discriminant": "single",
-        "value": 259
-      },
-      "tags": [],
-      "spicy": "0",
-      "emoji": "🥩"
-    },
-    {
-      "nameTh": {
-        "name": "สเต๊กไก่ซอสเห็ด",
-        "slug": "chicken-steak"
-      },
-      "nameEn": "Chicken Steak, Mushroom Sauce",
-      "description": {
-        "th": "สะโพกไก่ย่างหนังกรอบ ซอสครีมเห็ด มันบด และสลัด",
-        "en": "Crispy-skinned grilled chicken thigh with creamy mushroom sauce, mashed potato and salad"
-      },
-      "price": {
-        "discriminant": "single",
-        "value": 139
-      },
-      "tags": [],
-      "spicy": "0",
-      "emoji": "🍗"
-    },
-    {
-      "nameTh": {
-        "name": "ข้าวผัดอเมริกัน",
-        "slug": "american-fried-rice"
-      },
-      "nameEn": "American Fried Rice",
-      "description": {
-        "th": "ข้าวผัดซอสมะเขือเทศ ไก่ทอด ไส้กรอก แฮม และไข่ดาว",
-        "en": "Tomato-ketchup fried rice with fried chicken, sausage, ham and a fried egg"
-      },
-      "price": {
-        "discriminant": "single",
-        "value": 99
+        "value": 100
       },
       "tags": [
-        "bestseller"
+        "signature"
       ],
       "spicy": "0",
-      "emoji": "🍛"
+      "image": "/menu/western/items/beef-steak/image.jpg"
+    },
+    {
+      "nameTh": {
+        "name": "สเต๊กไก่",
+        "slug": "menu-fpmu5k"
+      },
+      "nameEn": " Crispy Chicken Steak",
+      "description": {
+        "th": "สเต็กไก่ทอดกรอบ: อกไก่ไม่มีกระดูกเนื้อนุ่ม ชุบแป้งปรุงรสทอดจนเหลืองกรอบ เสิร์ฟพร้อมน้ำเกรวี่และเครื่องเคียง",
+        "en": "Tender boneless chicken breast coated in seasoned batter and deep-fried until golden brown. Served with gravy and side dishes."
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 100
+      },
+      "tags": [
+        "signature"
+      ],
+      "spicy": "0",
+      "image": "/menu/western/items/menu-fpmu5k/image.jpg"
+    },
+    {
+      "nameTh": {
+        "name": "สปาเก็ตตี้หมูสับผัดซอส",
+        "slug": "american-fried-rice"
+      },
+      "nameEn": "Spaghetti with Minced Pork Tomato Sauce",
+      "description": {
+        "th": "เส้นสปาเก็ตตี้เหนียวนุ่ม ราดด้วยซอสมะเขือเทศเคี่ยวกับหมูสับปรุงรสกลมกล่อม หอมกลิ่นสมุนไพรและหอมหัวใหญ่",
+        "en": "• \n\t• Al dente spaghetti topped with a rich, savory tomato sauce simmered with minced pork, onions, and aromatic herbs.\n"
+      },
+      "price": {
+        "discriminant": "single",
+        "value": 100
+      },
+      "tags": [
+        "bestseller",
+        "signature"
+      ],
+      "spicy": "0",
+      "image": "/menu/western/items/american-fried-rice/image.jpg"
     },
     {
       "nameTh": {
@@ -92,16 +98,18 @@
       },
       "nameEn": "Spaghetti Carbonara",
       "description": {
-        "th": "ซอสครีมไข่แดง เบคอนกรอบ ชีสพาร์เมซาน พริกไทยดำ",
-        "en": "Creamy egg-yolk sauce, crispy bacon, Parmesan and black pepper"
+        "th": "(สปาเก็ตตี้คาโบนาร่า: เส้นสปาเก็ตตี้คลุกเคล้าซอสครีมชีสเข้มข้นและเบคอนกรอบ โรยหน้าด้วยพาร์เมซานชีสและพริกไทยดำ)",
+        "en": "Spaghetti tossed in a rich, creamy cheese sauce with crispy bacon and topped with parmesan cheese and black pepper."
       },
       "price": {
         "discriminant": "single",
-        "value": 129
+        "value": 110
       },
-      "tags": [],
+      "tags": [
+        "bestseller"
+      ],
       "spicy": "0",
-      "emoji": "🍝"
+      "image": "/menu/western/items/carbonara/image.jpg"
     },
     {
       "nameTh": {
@@ -123,24 +131,6 @@
     },
     {
       "nameTh": {
-        "name": "คลับแซนด์วิช",
-        "slug": "club-sandwich"
-      },
-      "nameEn": "Club Sandwich",
-      "description": {
-        "th": "ขนมปังปิ้ง แฮม ไก่ ไข่ ชีส ผักสด เสิร์ฟพร้อมเฟรนช์ฟรายส์",
-        "en": "Toasted bread layered with ham, chicken, egg, cheese and fresh salad, served with fries"
-      },
-      "price": {
-        "discriminant": "single",
-        "value": 119
-      },
-      "tags": [],
-      "spicy": "0",
-      "emoji": "🥪"
-    },
-    {
-      "nameTh": {
         "name": "เฟรนช์ฟรายส์",
         "slug": "french-fries"
       },
@@ -151,10 +141,13 @@
       },
       "price": {
         "discriminant": "single",
-        "value": 59
+        "value": 70
       },
-      "tags": [],
+      "tags": [
+        "bestseller"
+      ],
       "spicy": "0",
+      "image": "/menu/western/items/french-fries/image.jpg",
       "emoji": "🍟"
     }
   ]
