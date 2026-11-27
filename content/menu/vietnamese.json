@@ -65,7 +65,8 @@
         "value": 80
       },
       "tags": [
-        "bestseller"
+        "bestseller",
+        "signature"
       ],
       "spicy": "0",
       "image": "/menu/vietnamese/items/menu-1t0xchs/image.jpg"
@@ -89,7 +90,7 @@
         "signature"
       ],
       "spicy": "0",
-      "image": "/menu/vietnamese/items/menu-f4qaqf/image.jfif",
+      "image": "/menu/vietnamese/items/menu-f4qaqf/image.jpg",
       "emoji": "🥣"
     },
     {
@@ -107,10 +108,11 @@
         "value": 70
       },
       "tags": [
-        "bestseller"
+        "bestseller",
+        "signature"
       ],
       "spicy": "2",
-      "image": "/menu/vietnamese/items/menu-rm7j4c/image.jfif"
+      "image": "/menu/vietnamese/items/menu-rm7j4c/image.jpg"
     },
     {
       "nameTh": {
@@ -130,7 +132,7 @@
         "signature"
       ],
       "spicy": "0",
-      "image": "/menu/vietnamese/items/menu-nknc6z/image.jfif",
+      "image": "/menu/vietnamese/items/menu-nknc6z/image.jpg",
       "emoji": "🥟"
     }
   ]
