@@ -31,94 +31,106 @@
     },
     {
       "nameTh": {
-        "name": "ข้าวเปียกเส้นหมู",
-        "slug": "khao-piak-sen"
+        "name": "ข้าวคลุกะปิ",
+        "slug": "menu-1dpiqfu"
       },
-      "nameEn": "Khao Piak Sen",
+      "nameEn": "Shrimp paste fried rice",
       "description": {
-        "th": "เส้นเหนียวนุ่ม น้ำซุปกระดูกหมูเคี่ยวนาน ใส่หมูยอ โรยกระเทียมเจียว",
-        "en": "Soft, chewy noodles in a slow-simmered pork bone broth with Vietnamese pork roll and fried garlic"
+        "th": "ข้าวคลุกกะปิ\nข้าวหอมมะลิผัดคลุกเคล้ากะปิอย่างดี หอมกลมกล่อม เสิร์ฟพร้อมหมูหวานเนื้อนุ่ม ไข่เจียวฝอย กุ้งแห้งทอดกรอบ มะม่วงเปรี้ยวซอย หอมแดง และพริกขี้หนูสด ครบเครื่องครบรส\n",
+        "en": "Shrimp Paste Fried Rice (Khao Khluk Kapi)\nFragrant fried rice seasoned with Thai shrimp paste, served with caramelized sweet pork, shredded omelet, sour green mango, shallots, crispy dried shrimp, and fresh chilies.\n"
       },
       "price": {
         "discriminant": "single",
-        "value": 60
+        "value": 80
       },
-      "tags": [],
+      "tags": [
+        "signature"
+      ],
       "spicy": "0",
+      "image": "/menu/vietnamese/items/menu-1dpiqfu/image.jpg",
       "emoji": "🍜"
     },
     {
       "nameTh": {
-        "name": "ไข่กระทะ",
-        "slug": "kai-kratha"
+        "name": "ข้าวผัดอเมริกัน",
+        "slug": "menu-1t0xchs"
       },
-      "nameEn": "Vietnamese Pan Eggs",
+      "nameEn": "American fried rice ",
       "description": {
-        "th": "ไข่ดาวในกระทะร้อน หมูยอ กุนเชียง หมูสับ เสิร์ฟพร้อมขนมปังอุ่นๆ",
-        "en": "Eggs sizzled in a hot pan with pork roll, Chinese sausage and minced pork, served with warm bread"
+        "th": "ข้าวผัดอเมริกัน\nข้าวหอมมะลิผัดซอสมะเขือเทศรสกลมกล่อม คลุกเคล้าลูกเกดและถั่วลันเตา เสิร์ฟพร้อมไก่ทอดกรอบ ไส้กรอก และไข่ดาว",
+        "en": "American Fried Rice\nTomato-flavored jasmine fried rice mixed with raisins and green peas, served with crispy fried chicken, fried sausage, and a sunny-side-up egg."
       },
       "price": {
         "discriminant": "single",
-        "value": 69
+        "value": 80
       },
       "tags": [
         "bestseller"
       ],
       "spicy": "0",
-      "emoji": "🥘"
+      "image": "/menu/vietnamese/items/menu-1t0xchs/image.jpg"
     },
     {
       "nameTh": {
-        "name": "เฝอเนื้อ",
-        "slug": "pho-nuea"
+        "name": "ราดหน้าทะเล",
+        "slug": "menu-f4qaqf"
       },
-      "nameEn": "Beef Pho",
+      "nameEn": "Seafood stir-fried noodles in gravy",
       "description": {
-        "th": "น้ำซุปเนื้อใส หอมเครื่องเทศ เส้นเฝอนุ่ม เนื้อสไลซ์ ใบโหระพา",
-        "en": "Clear, aromatic beef broth with soft pho noodles, sliced beef and Thai basil"
+        "th": "ราดหน้าทะเล\nเส้นผัดหอมกลิ่นกระทะ ราดด้วยน้ำราดหน้ารสกลมกล่อม เสิร์ฟพร้อมกุ้ง ปลาหมึก เนื้อปลาสด และยอดคะน้ากรอบ",
+        "en": "Seafood Stir-Fried Noodles in Gravy (Rad Na Talay)\nWok-seared noodles topped with a savory thick gravy, fresh shrimp, squid, fish, and tender Chinese kale."
       },
       "price": {
         "discriminant": "single",
-        "value": 89
+        "value": 70
       },
-      "tags": [],
+      "tags": [
+        "bestseller",
+        "signature"
+      ],
       "spicy": "0",
+      "image": "/menu/vietnamese/items/menu-f4qaqf/image.jfif",
       "emoji": "🥣"
     },
     {
       "nameTh": {
-        "name": "บั๋นหมี่",
-        "slug": "banh-mi"
+        "name": "ปลาผัดฉ่าราดข้าว",
+        "slug": "menu-rm7j4c"
       },
-      "nameEn": "Banh Mi",
+      "nameEn": "Stir-fried spicy fish with herbs over rice",
       "description": {
-        "th": "ขนมปังเวียดนามกรอบนอกนุ่มใน ไส้หมูยอ หมูหยอง ผักดอง ผักชี",
-        "en": "Crusty Vietnamese baguette with pork roll, pork floss, pickles and coriander"
+        "th": "• เนื้อปลาสดผัดคลุกเคล้ากับพริกแกงและเครื่องสมุนไพรไทยจัดจ้าน ทั้งกระชาย พริกไทยอ่อน และใบมะกรูด รสชาติเผ็ดร้อน หอมสมุนไพร เสิร์ฟพร้อมข้าวสวยร้อนๆ",
+        "en": "Fresh fish fillets stir-fried in a bold, spicy Thai herb sauce with fingerroot, young green peppercorns, and kaffir lime leaves, served over steamed jasmine rice"
       },
       "price": {
         "discriminant": "single",
-        "value": 55
+        "value": 70
       },
-      "tags": [],
-      "spicy": "0",
-      "emoji": "🥖"
+      "tags": [
+        "bestseller"
+      ],
+      "spicy": "2",
+      "image": "/menu/vietnamese/items/menu-rm7j4c/image.jfif"
     },
     {
       "nameTh": {
-        "name": "ปอเปี๊ยะทอดเวียดนาม",
-        "slug": "popia-tod"
+        "name": "ผัดไทย",
+        "slug": "menu-nknc6z"
       },
-      "nameEn": "Fried Spring Rolls",
+      "nameEn": "Pad thai",
       "description": {
-        "th": "แป้งข้าวทอดกรอบ ไส้หมูวุ้นเส้นเห็ดหูหนู จิ้มน้ำจิ้มเปรี้ยวหวาน",
-        "en": "Crispy rice-paper rolls filled with pork, glass noodles and wood-ear mushroom, with sweet chilli dip"
+        "th": "• เมนูซิกเนเจอร์รสชาติกลมกล่อมลงตัว เส้นเล็กเหนียวนุ่มผัดไฟแรงกับซอสน้ำมะขามเปียกเข้มข้น ครบเครื่องทั้งเต้าหู้เหลือง ไข่ไก่ ไชโป๊สับ และถั่วงอกกรอบๆ หอมกลิ่นกระทะ เสิร์ฟคู่เครื่องเคียงครบชุด",
+        "en": "• Thailand's iconic noodle dish. Wok-fried rice noodles coated in a rich, savory-sweet tamarind glaze with egg, diced tofu, preserved radish, and crisp bean sprouts. Garnished with crunchy peanuts and fresh lime for a balanced burst of flavor.\n"
       },
       "price": {
         "discriminant": "single",
-        "value": 79
+        "value": 70
       },
-      "tags": [],
+      "tags": [
+        "signature"
+      ],
       "spicy": "0",
+      "image": "/menu/vietnamese/items/menu-nknc6z/image.jfif",
       "emoji": "🥟"
     }
   ]
