@@ -43,10 +43,11 @@
         "value": 180
       },
       "tags": [
-        "bestseller"
+        "bestseller",
+        "signature"
       ],
       "spicy": "1",
-      "image": "/menu/thai/items/kaeng-liang-kung/image.jfif"
+      "image": "/menu/thai/items/kaeng-liang-kung/image.jpg"
     },
     {
       "nameTh": {
@@ -63,7 +64,7 @@
         "value": 150
       },
       "tags": [
-        "bestseller"
+        "signature"
       ],
       "spicy": "2",
       "image": "/menu/thai/items/tom-yum-kung/image.jfif",
@@ -84,7 +85,8 @@
         "value": 150
       },
       "tags": [
-        "bestseller"
+        "bestseller",
+        "signature"
       ],
       "spicy": "2",
       "image": "/menu/thai/items/menu-vocand/image.jfif"
@@ -104,7 +106,8 @@
         "value": 390
       },
       "tags": [
-        "bestseller"
+        "bestseller",
+        "signature"
       ],
       "spicy": "1",
       "image": "/menu/thai/items/menu-124jn2w/image.jfif"
@@ -123,7 +126,9 @@
         "discriminant": "single",
         "value": 120
       },
-      "tags": [],
+      "tags": [
+        "signature"
+      ],
       "spicy": "2",
       "emoji": "🥗"
     },
@@ -163,7 +168,8 @@
         "value": 220
       },
       "tags": [
-        "bestseller"
+        "bestseller",
+        "signature"
       ],
       "spicy": "0",
       "image": "/menu/thai/items/pad-thai-kung/image.jfif"
@@ -178,7 +184,9 @@
         "discriminant": "single",
         "value": 150
       },
-      "tags": [],
+      "tags": [
+        "signature"
+      ],
       "spicy": "0",
       "image": "/menu/thai/items/menu-6g9di1/image.jpg",
       "emoji": "🍽️"
